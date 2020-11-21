@@ -546,8 +546,6 @@ video {
   height: auto;
 }
 
-@import "site";
-
 .container {
   width: 100%;
 }
@@ -183888,3 +183886,4 @@ video {
             animation: bounce 1s infinite;
   }
 }
+  
