@@ -1,6 +1,9 @@
 ---
 title: Home
-id: home
 template: home
+author: b8cab3f6-baa5-4311-822b-8ad388e79916
+updated_by: b8cab3f6-baa5-4311-822b-8ad388e79916
+updated_at: 1605988956
+id: home
 ---
-Welcome to your new Statamic website.
+Hello World
