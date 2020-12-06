@@ -1,0 +1,9 @@
+title: Thoughts
+template: default
+layout: layout
+mount: 93924d80-62a0-4292-a3d9-c647992039bf
+revisions: false
+sort_dir: desc
+date_behavior:
+  past: public
+  future: private

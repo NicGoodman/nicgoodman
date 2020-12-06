@@ -1,1 +1,5 @@
 title: 'Main Nav'
+collections:
+  - pages
+  - projects
+  - thoughts

@@ -3,11 +3,12 @@
     <head>
         <title>{{ title }}</title>
         <link href="{{ link to="/css/tailwind.css" }}" rel="stylesheet" />
-        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <script src="https://unpkg.com/vue@next"></script>
     </head>
     <body class="bg-blue-600 text-white text-xl font-serif">
         <div class="container max-w-lg mx-auto py-8">
             {{ template_content }}
         </div>
+        <script src="{{ link to = '/js/app.js'}}"></script>
     </body>
 </html>

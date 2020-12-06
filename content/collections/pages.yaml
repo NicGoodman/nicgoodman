@@ -5,4 +5,10 @@ structure:
   root: true
   tree:
     -
-      entry: home
+      entry: 2405a202-7a2f-4cf1-9909-55be9edc5ae8
+    -
+      entry: 6afe05a4-a579-42a7-9fa2-c296d60e1b18
+    -
+      entry: 298473d7-1bca-49e3-9257-a2852c79a4c6
+    -
+      entry: 93924d80-62a0-4292-a3d9-c647992039bf
