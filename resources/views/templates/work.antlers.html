@@ -1,5 +1,15 @@
 <section id="content">
-    {{ collection:projects }}
-    <h2>{{ title }}</h2>
-    {{ /collection:projects }}
+    <section id="" class="flex flex-row">
+        {{ collection:projects }}
+        <article
+            id="{{ slug }}"
+            class="{{ project_type }}{{ slug }}{{ /project_type }} w-64 h-64 bg-cover bg-center border-2 border-yellow-400 m-8 shadow-offset-yellow"
+            style="background-image: linear-gradient(rgba(219, 39, 119, 0.75), rgba(76, 29, 149, 0.75)), url('{{ thumbnail.url }}'); background-blend-mode: darken;"
+        >
+            <h4 id="" class="">
+                {{ title }}
+            </h2>
+        </article>
+        {{ /collection:projects }}
+    </section>
 </section>

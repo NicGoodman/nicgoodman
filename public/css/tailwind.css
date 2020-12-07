@@ -31169,6 +31169,10 @@ video {
           animation: bounce 1s infinite;
 }
 
+.shadow-offset-yellow {
+  box-shadow: 8px 8px 0 1px #FBBF24;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
