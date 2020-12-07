@@ -6,6 +6,7 @@ taxonomies:
   - project_type
   - services
 revisions: false
+route: '{mount}/{slug}'
 sort_dir: desc
 date_behavior:
   past: public
