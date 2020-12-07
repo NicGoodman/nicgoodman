@@ -30,6 +30,32 @@ sections:
           type: template
           display: Template
           localizable: true
+      -
+        handle: designer_background
+        field:
+          mode: grid
+          restrict: false
+          allow_uploads: true
+          display: 'Designer Background'
+          type: assets
+          icon: assets
+          listable: hidden
+          max_files: 1
+          if:
+            template: 'equals templates/work'
+      -
+        handle: coder_background
+        field:
+          mode: grid
+          restrict: false
+          allow_uploads: true
+          max_files: 1
+          display: 'Coder Background'
+          type: assets
+          icon: assets
+          listable: hidden
+          if:
+            template: 'equals templates/work'
   sidebar:
     display: Sidebar
     fields:

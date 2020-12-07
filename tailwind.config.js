@@ -5,7 +5,11 @@ module.exports = {
   },
   purge: [],
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        '192': '48rem'
+      }
+    },
     fontFamily: {
       'sans': ['graphie', 'sans-serif'],
       'mono': ['dico-mono', 'mono'],
