@@ -1,5 +1,5 @@
 const app = Vue.createApp({});
-app.component('hello-world', {
+app.component('project-title', {
   data() {
     return {
     }
@@ -7,4 +7,4 @@ app.component('hello-world', {
   props: ['content'],
   template: `<p>{{content}}</p>`
 });
-app.mount('#content');
+app.mount('#projects');
