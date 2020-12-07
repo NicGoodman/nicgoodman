@@ -1,0 +1,9 @@
+<div id="projects">
+    {{ collection:projects }}
+    <project-title content="{{ title | raw }}" class="text-6xl"></project-title>
+    {{ /collection:projects }}
+</div>
+{{ collection:projects as="projects"}}
+{{ projects | to_json }}
+{{ /collection:projects }}
+
