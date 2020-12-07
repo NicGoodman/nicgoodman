@@ -1,5 +1,5 @@
 title: Projects
-template: projects/show
+template: templates/project
 layout: layout
 mount: 2405a202-7a2f-4cf1-9909-55be9edc5ae8
 taxonomies:

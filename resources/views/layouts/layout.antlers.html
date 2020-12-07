@@ -6,6 +6,10 @@
         <script src="https://unpkg.com/htmx.org@1.0.1"></script>
     </head>
     <body class="bg-blue-600 text-white text-xl font-serif">
-        {{ template_content }}
+        {{ partial:partials/header }}
+        <section id="content" hx-swap-oob="true">
+            {{ template_content }}
+        </section>
+        {{ partial:partials/footer }}
     </body>
 </html>
