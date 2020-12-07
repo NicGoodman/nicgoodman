@@ -1,6 +1,6 @@
 title: Projects
 template: templates/project
-layout: layout
+layout: layouts/layout
 mount: 2405a202-7a2f-4cf1-9909-55be9edc5ae8
 taxonomies:
   - project_type
@@ -14,6 +14,6 @@ structure:
   root: false
   tree:
     -
-      entry: 383c05e4-159f-4a49-a91b-e608bcf109cf
+      entry: 750a9635-af4b-4b3a-8dde-d16cfeb2c3b6
     -
-      entry: 8bbedf46-780f-4ebf-a336-2f72af630792
+      entry: 6841b7b1-0364-4914-8ea7-7bf95f6503b2

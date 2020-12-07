@@ -2,4 +2,68 @@ title: Projects
 sections:
   main:
     display: Main
-    fields: {  }
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: bard
+        field:
+          always_show_set_button: false
+          buttons:
+            - h2
+            - quote
+            - table
+            - h1
+          save_html: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          display: Bard
+          type: bard
+          icon: bard
+          listable: hidden
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - projects
+          max_items: 1
+          listable: false
+          localizable: true
+      -
+        handle: project_type
+        field:
+          type: terms
+          taxonomies:
+            - project_type
+          display: 'Project Type'
+          mode: select
+      -
+        handle: services
+        field:
+          type: terms
+          taxonomies:
+            - services
+          display: Services
+          mode: select
