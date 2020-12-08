@@ -571,6 +571,17 @@ p {
   line-height: 1.5rem;
 }
 
+.current-page {
+  font-weight: 800;
+  --tw-text-opacity: 1;
+  color: rgba(219, 39, 119, var(--tw-text-opacity));
+  font-family: dico-mono-script, mono;
+  --tw-bg-opacity: 1;
+  background-color: rgba(209, 250, 229, var(--tw-bg-opacity));
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 @import "site";
 
 .container {
@@ -197447,3 +197458,4 @@ p {
             animation: bounce 1s infinite;
   }
 }
+
