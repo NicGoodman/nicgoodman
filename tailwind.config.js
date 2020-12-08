@@ -8,6 +8,9 @@ module.exports = {
     extend: {
       height: {
         '192': '48rem'
+      },
+      fontSize: {
+        'xs': '.75rem'
       }
     },
     fontFamily: {
@@ -16,6 +19,12 @@ module.exports = {
       'script': ['dico-mono-script', 'mono']
     }
   },
-  variants: {},
+  variants: {
+    extend: {
+      fontFamily: ['hover', 'focus'],
+      padding: ['hover', 'focus'],
+      fontSize: ['hover', 'focus']
+    }
+  },
   plugins: [],
 }

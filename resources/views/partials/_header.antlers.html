@@ -2,7 +2,7 @@
     <h2 id="site-greeting" class="font-3xl font-bold font-sans text-green-100">hi i'm <span id="name" class="text-green-300">nic</span></h2>
     <nav id="main-navigation" class="flex flex-row">
         {{ nav include_home="true" }}
-        <a href="" hx-get="{{ url }}" hx-trigger="click" hx-target="#page-content" id="nav-item" class="text-green-100 text-right py-1 pr-1 pl-5 font-bold lowercase">{{ title }}</a
+        <a href="" hx-get="{{ url }}" hx-trigger="click" hx-target="#page-content" id="nav-item" class="w-24"><span class="hover:bg-green-100 pr-1 pl-5 text-green-100 font-sans hover:font-script text-right font-bold hover:font-extrabold hover:text-pink-600 lowercase h-7 text-base hover:text-sm align-middle py-1">{{ title }}</span></a
         >
         {{ /nav }}
     </nav>
