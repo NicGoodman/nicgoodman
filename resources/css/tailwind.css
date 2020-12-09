@@ -19,13 +19,7 @@ p {
     @apply text-base;
 }
 
-.current-page {
-    @apply font-extrabold;
-    @apply text-pink-600;
-    @apply font-script;
-    @apply bg-green-100;
-    @apply text-sm;
-}
+
 
 @import "site";
 
@@ -36,4 +30,13 @@ p {
 .shadow-offset-yellow {
     box-shadow: 8px 8px 0 1px #FBBF24;
 }
-
+.shadow-offset-yellow:hover {
+    box-shadow: 12px 12px 0 1px #FBBF24;
+}
+.currentPage {
+    @apply font-extrabold;
+    @apply text-pink-600;
+    @apply font-script;
+    @apply bg-green-100;
+    @apply text-sm;
+}

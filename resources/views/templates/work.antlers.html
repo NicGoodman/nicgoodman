@@ -9,19 +9,24 @@
             class="h-full w-1/2 bg-no-repeat bg-cover bg-opacity-50 flex flex-col items-center justify-center"
             style="background-image: url('{{ coder_background.url }}'), linear-gradient(rgba(49, 46, 129, 1), rgba(91, 33, 182, 1)); clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%); background-blend-mode: overlay;"
         >
-            <h1 class="font-extrabold font-script text-center text-yellow-400">coder.</h1>
+            <h1 class="font-extrabold font-script text-center text-yellow-400">
+                coder.
+            </h1>
         </section>
-        <section id="hero-designer" class="h-full w-1/2 flex flex-col items-center justify-center">
-            <h1 class="font-bold font-sans text-center text-green-100">designer.</h1>
+        <section
+            id="hero-designer"
+            class="h-full w-1/2 flex flex-col items-center justify-center"
+        >
+            <h1 class="font-bold font-sans text-center text-green-100">
+                designer.
+            </h1>
         </section>
-
     </section>
     <section id="projects" class="flex flex-row items-start w-full max-w-6xl">
         {{ collection:projects }}
         <article
             id="{{ slug }}"
-            class="{{ project_type }}{{ slug }}{{ /project_type }} w-56 h-56 bg-cover bg-center border-2 border-yellow-400 m-8 shadow-offset-yellow"
-            style="background-image: linear-gradient(rgba(219, 39, 119, 0.75), rgba(76, 29, 149, 0.75)), url('{{ thumbnail.url }}'); background-blend-mode: darken;"
+            class="{{ project_type }}{{ slug }}{{ /project_type }} transition-all w-56 h-56 bg-cover bg-center border-2 border-yellow-400 m-8 shadow-offset-yellow cursor-pointer image-gradient-{{ slug }}"
         >
             <p
                 id=""

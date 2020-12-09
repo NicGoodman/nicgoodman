@@ -1,15 +1,13 @@
-const app = Vue.createApp({});
-app.component('project-title', {
+const app = Vue.createApp({
   data() {
     return {
-      json: {}
+      navLink: 1
     }
   },
   methods: {
-    setJson (payload) {
-      this.json = payload;
+    selected(num) {
+      this.navLink = num;
     }
-  },
-  template: `<p>{{ json.title }}</p>`
+  }
 });
-app.mount('#projects');
+app.mount('#nicgoodman-site');
