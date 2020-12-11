@@ -1,13 +1,19 @@
 const app = Vue.createApp({
-  data() {
-    return {
-      navLink: 1
+    data() {
+        return {
+            active:false,
+            navLink: 1
+        }
+    },
+    computed: {
+        selected(num) {
+            this.navLink = num;
+        }
+    },
+    methods: {
+      toggleCoderAnimation() {
+        this.active = !this.active;
+      }
     }
-  },
-  methods: {
-    selected(num) {
-      this.navLink = num;
-    }
-  }
 });
-app.mount('#nicgoodman-site');
+app.mount("#nicgoodman-site");

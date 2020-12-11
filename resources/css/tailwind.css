@@ -40,3 +40,11 @@ p {
     @apply bg-green-100;
     @apply text-sm;
 }
+
+.hero-angle {
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.heroCoderAnimate {
+    clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%);
+}

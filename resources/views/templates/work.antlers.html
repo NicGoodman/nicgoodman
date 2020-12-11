@@ -5,11 +5,11 @@
         style="background-image: url('{{ designer_background.url }}'), linear-gradient(rgba(219, 39, 119, 1), rgba(236, 72, 153, 1));"
     >
         <section
-            id="hero-coder"
-            class="h-full w-1/2 bg-no-repeat bg-cover bg-opacity-50 flex flex-col items-center justify-center"
-            style="background-image: url('{{ coder_background.url }}'), linear-gradient(rgba(49, 46, 129, 1), rgba(91, 33, 182, 1)); clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%); background-blend-mode: overlay;"
+            id="coder-hero"
+            class="h-full w-1/2 bg-no-repeat bg-cover bg-opacity-50 flex flex-col items-center justify-center hero-angle transition-all"
+            style="background-image: url('{{ coder_background.url }}'), linear-gradient(rgba(49, 46, 129, 1), rgba(91, 33, 182, 1)); background-blend-mode: overlay;" :class="{ heroCoderAnimate: active }"
         >
-            <h1 class="font-extrabold font-script text-center text-yellow-400">
+            <h1 class="font-extrabold font-script text-center text-yellow-400 hover:animate-hoverBounce cursor-pointer" @click="toggleCoderAnimation()">
                 coder.
             </h1>
         </section>
@@ -17,7 +17,7 @@
             id="hero-designer"
             class="h-full w-1/2 flex flex-col items-center justify-center"
         >
-            <h1 class="font-bold font-sans text-center text-green-100">
+            <h1 class="font-bold font-sans text-center text-green-100 hover:animate-hoverBounce cursor-pointer">
                 designer.
             </h1>
         </section>
