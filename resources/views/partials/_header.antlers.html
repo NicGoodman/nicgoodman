@@ -1,12 +1,31 @@
-<header id="site-header" class="w-full p-10 flex flex-row justify-between absolute top-0 left-0 z-50">
-    <h2 id="site-greeting" class="font-3xl font-bold font-sans text-green-100">hi i'm <span id="name" class="text-green-300">nic</span></h2>
+<header
+    id="site-header"
+    class="w-full p-10 flex flex-row justify-between absolute top-0 left-0 z-50"
+>
+    <h2 id="site-greeting" class="font-3xl font-bold font-sans text-green-100">
+        hi i'm <span id="name" class="text-green-300">nic</span>
+    </h2>
     <nav id="main-navigation" class="flex flex-row">
         {{ nav include_home="true" }}
         <router-link id="nav-item" class="w-24 h-7" to="{{ url }}">
-            <span class="hover:bg-green-100 pr-1 pl-5 text-green-100 font-sans hover:font-script text-right font-bold hover:font-extrabold hover:text-pink-600 lowercase text-base hover:text-sm align-middle py-1" @click="selected({{ count }})" :class="{currentPage:navLink == {{ count }}}" style="transition: background-color 0.2s ease-in-out">
+            <span
+                class="hover:bg-green-100 pr-1 pl-5 text-green-100 font-sans hover:font-script text-right font-bold hover:font-extrabold hover:text-pink-600 lowercase text-base hover:text-sm align-middle py-1"
+                @click="selected({{ count }})"
+                :class="{currentPage:navLink == {{ count }}}"
+                style="transition: background-color 0.2s ease-in-out"
+            >
                 {{ title }}
             </span>
         </router-link>
         {{ /nav }}
+        <a
+            href="https://www.linkedin.com/in/nic-goodman"
+            class=" text-yellow-400 text-lg hover:text-pink-600 pt-xs transition-all ml-5 h-7"
+            ><i class="fab fa-linkedin"></i></a
+        ><a
+            href="https://github.com/NicGoodman"
+            class=" text-yellow-400 text-lg hover:text-pink-600 pt-xs transition-all ml-5 h-7"
+            ><i class="fab fa-github-square"></i
+        ></a>
     </nav>
 </header>

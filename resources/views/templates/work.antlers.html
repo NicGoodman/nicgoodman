@@ -8,17 +8,27 @@
         <section
             id="coder-hero"
             class="h-full w-1/2 bg-no-repeat bg-cover bg-opacity-50 flex flex-col items-center justify-center hero-angle transition-all duration-300 relative transform-gpu p-24"
-            style="background-image: url('{{ coder_background.url }}'), linear-gradient(rgba(49, 46, 129, 1), rgba(91, 33, 182, 1)); background-blend-mode: overlay;" :class="{ heroCoderAnimateFull: coderAnimation, heroCoderAnimateHide: designerAnimation }"
+            style="background-image: url('{{ coder_background.url }}'), linear-gradient(rgba(49, 46, 129, 1), rgba(91, 33, 182, 1)); background-blend-mode: overlay;"
+            :class="{ heroCoderAnimateFull: coderAnimation, heroCoderAnimateHide: designerAnimation }"
         >
-            <h1 class="font-extrabold font-script text-center text-yellow-400 hover:animate-hoverBounce cursor-pointer transition-all transform-gpu" @click="toggleCoderAnimation()" :class="{ left: coderAnimation }">
+            <h1
+                class="font-extrabold font-script text-center text-yellow-400 hover:animate-hoverBounce cursor-pointer transition-all transform-gpu"
+                @click="toggleCoderAnimation(); setProjectFilter('code')"
+                :class="{ left: coderAnimation }"
+            >
                 coder.
             </h1>
         </section>
         <section
             id="hero-designer"
-            class="h-full w-1/2 flex flex-col items-center justify-center transition-all p-24" :class="{ wnone: coderAnimation }"
+            class="h-full w-1/2 flex flex-col items-center justify-center transition-all p-24"
+            :class="{ wnone: coderAnimation }"
         >
-            <h1 class="font-bold font-sans text-center text-green-100 hover:animate-hoverBounce cursor-pointer transition-all" @click="toggleDesignerAnimation()" :class="{ right: designerAnimation }">
+            <h1
+                class="font-bold font-sans text-center text-green-100 hover:animate-hoverBounce cursor-pointer transition-all"
+                @click="toggleDesignerAnimation(); setProjectFilter('design')"
+                :class="{ right: designerAnimation }"
+            >
                 designer.
             </h1>
         </section>
@@ -28,8 +38,14 @@
         <article
             id="{{ slug }}"
             class="{{ project_type }}{{ slug }}{{ /project_type }} transition-all relative w-56 h-56 bg-cover bg-center m-8 outline-yellow shadow-offset-yellow cursor-pointer z-30 image-gradient-{{ slug }}"
+            @click="fetchProject('{{ url }}')"
+            :class="[ projectFilter === '{{ project_type }}{{ slug }}{{ /project_type }}'|| projectFilter === 'all'? 'block' : 'hidden', projectFilter === 'all' ? 'block':'']"
         >
-        <img src="{{ thumbnail.url }}" alt="" class="w-56 h-56 object-cover opacity-0 hover:opacity-100 transition-all z-40">
+            <img
+                src="{{ thumbnail.url }}"
+                alt=""
+                class="w-56 h-56 object-cover opacity-0 hover:opacity-100 transition-all z-40"
+            />
             <p
                 id=""
                 class="bg-green-100 w-auto m-2 py-1 pl-1 pr-5 text-pink-700 text-xs font-extrabold inline-block lowercase font-script z-50 absolute top-0"
@@ -38,6 +54,17 @@
             </p>
         </article>
         {{ /collection:projects }}
+    </section>
+    <section id="project" class="absolute bottom-0 left-0 min-h-screen z-50 bg-no-repeat bg-gradient-to-b from-gray-800 to-purple-900 h-full w-screen transition-all transform-gpu flex flex-col items-center" :class="{ projectContentAnimate: !showProject }">
+        <i
+            class="fas fa-times-circle transition-all hover:animate-pulse text-yellow-400 text-3xl absolute top-0 right-0 m-8 cursor-pointer hover:text-pink-600"
+            @click="toggleProject()"
+        ></i>
+        <article
+            id="project-content"
+            class="max-w-6xl w-full mt-8"
+            v-html="projectContent"
+        ></article>
     </section>
 </section>
 {{ /get_content }}

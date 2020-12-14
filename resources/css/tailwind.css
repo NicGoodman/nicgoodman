@@ -72,3 +72,19 @@ p {
 .opacityFull {
     @apply opacity-100;
 }
+
+.projectContentAnimate {
+    @apply overflow-hidden;
+    @apply min-h-0;
+    @apply h-0;
+}
+
+.image-gallery {
+    line-height: 1rem;
+    column-count: 3;
+    column-gap: 1rem; 
+}
+
+.pt-xs {
+    padding-top: .125em;
+}

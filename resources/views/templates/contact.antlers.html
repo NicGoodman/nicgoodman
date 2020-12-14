@@ -1,3 +1,22 @@
 {{ get_content from="/contact" }}
-<section id="contact-content" class="">{{ title }}</section>
+<section id="contact-content" class="">
+    <form id="contactForm" name="contact" method="POST" data-netlify="true">
+        <p>
+            <label>name: <input type="text" name="name"/></label>
+        </p>
+        <p>
+            <label>email: <input type="email" name="email"/></label>
+        </p>
+        <p>
+            <label>phone: <input type="phone" name="phone"/></label>
+        </p>
+
+        <p>
+            <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+            <button type="submit">Send</button>
+        </p>
+    </form>
+</section>
 {{ /get_content }}

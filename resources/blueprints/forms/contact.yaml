@@ -1,0 +1,42 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: name
+        field:
+          placeholder: 'First & Last'
+          input_type: text
+          antlers: false
+          display: Name
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: email
+        field:
+          placeholder: janesmith@mac.com
+          input_type: text
+          antlers: false
+          display: Email
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: phone
+        field:
+          placeholder: 828.123.4567
+          input_type: text
+          antlers: false
+          display: Phone
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: message
+        field:
+          antlers: false
+          display: Message
+          type: textarea
+          icon: textarea
+          listable: hidden
