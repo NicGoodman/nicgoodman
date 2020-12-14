@@ -1,3 +1,27 @@
 {{ get_content from="/about" }}
-<section id="about-content" class="">{{ title }}</section>
+<section id="about-content" class="flex flex-col items-center">
+    <section
+        id="about-hero"
+        class="w-screen h-96 flex flex-row p-24 items-end border-b-4 border-yellow-400 bg-repeat bg-center"
+        style="background-image: url('{{ hero_background.url }}'), linear-gradient(rgba(219, 39, 119, 1), rgba(236, 72, 153, 1));"
+    >
+        <h1
+            id="page-title"
+            class="font-bold font-sans text-center text-green-100"
+        >
+            {{ title | lower }}
+        </h1>
+    </section>
+    <main id="about-content-wrapper" class="w-full max-w-6xl flex flex-row mt-8">
+        <article id="about-sidebar" class="flex-shrink-0">
+            <img src="{{ avatar.url }}" class="w-56 h-56" alt="" />
+        </article>
+        <article id="bio-content" class="flex flex-col p-8 text-yellow-400 font-sans font-bold">
+            <h2 id="bio-header" class="text-green-100 font-sans font-bold mb-2">
+                {{ about_header }} <span id="name" class="text-green-300">nic goodman</span>
+            </h2>
+            {{ bio }}
+        </article>
+    </main>
+</section>
 {{ /get_content }}
