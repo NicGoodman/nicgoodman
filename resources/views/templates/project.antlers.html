@@ -1,10 +1,22 @@
-<h2 id="project-title" class="text-green-100 font-sans font-extrabold">{{ title }}</h2>
-<section id="project-description" class="text-yellow-400 font-sans w-3/4">
-{{ project_description}}
+<h2 id="project-title" class="text-green-100 font-sans font-extrabold">
+    {{ title }}
+</h2>
+<section
+    id="project-categories"
+    class="text-pink-600 font-script text-base font-extrabold mb-4"
+>
+    {{ services }}
+    <p>{{ title | lower }}</p>
+    {{ /services }}
+</section>
+<section
+    id="project-description"
+    class="text-yellow-400 font-sans font-bold w-3/4"
+>
+    {{ project_description}}
 </section>
 <section id="project-gallery" class="image-gallery mt-8">
     {{ gallery_images }}
-    <img src="{{ url }}" class="w-full h-auto" alt="">
+    <img src="{{ url }}" class="w-full h-auto" alt="" />
     {{ /gallery_images}}
-
 </section>

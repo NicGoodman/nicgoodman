@@ -1,0 +1,18 @@
+[[redirects]]
+  from = "/about"
+  to = "/"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+  from = "/contact"
+  to = "/"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+  from = "/work"
+  to = "/"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
