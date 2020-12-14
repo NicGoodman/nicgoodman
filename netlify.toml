@@ -4,13 +4,13 @@
   status = 200
   force = true
   headers = {X-From = "Netlify"}
-
+[[redirects]]
   from = "/contact"
   to = "/"
   status = 200
   force = true
   headers = {X-From = "Netlify"}
-
+[[redirects]]
   from = "/work"
   to = "/"
   status = 200
