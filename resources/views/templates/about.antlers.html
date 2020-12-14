@@ -14,7 +14,10 @@
     </section>
     <main id="about-content-wrapper" class="w-full max-w-6xl flex flex-row mt-8">
         <article id="about-sidebar" class="flex-shrink-0">
-            <img src="{{ avatar.url }}" class="w-56 h-56" alt="" />
+            <div id="avatars" class="relative w-56 h-56">
+            <img src="{{ avatar.url }}" class="w-56 h-56 outline-yellow absolute top-0 transition-opacity hover:opacity-0 z-50" alt="" />
+            <img src="{{ bio_picture.url }}" class="w-56 h-56 outline-yellow shadow-offset-yellow absolute top-0 z-40" alt="" />
+            </div>
         </article>
         <article id="bio-content" class="flex flex-col p-8 text-yellow-400 font-sans font-bold">
             <h2 id="bio-header" class="text-green-100 font-sans font-bold mb-2">
