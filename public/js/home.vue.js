@@ -1,4 +1,5 @@
 var Home = {
+    template: '#work-content',
     data() {
         return {
             coderAnimation: false,
@@ -13,6 +14,5 @@ var Home = {
         toggleDesignerAnimation() {
             this.designerAnimation = !this.designerAnimation;
         }
-    },
-	template: "#work-content"
+    }
 };
