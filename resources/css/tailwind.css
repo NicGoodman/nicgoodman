@@ -45,6 +45,30 @@ p {
     clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
 }
 
-.heroCoderAnimate {
+.heroCoderAnimateFull {
     clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%);
+    @apply w-full;
+}
+
+.heroCoderAnimateHide {
+    clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%);
+    @apply w-0;
+    @apply p-0;
+}
+
+.wnone {
+    @apply w-0;
+    @apply p-0;
+}
+
+.left {
+    @apply self-start;
+}
+
+.right {
+    @apply self-end;
+}
+
+.opacityFull {
+    @apply opacity-100;
 }

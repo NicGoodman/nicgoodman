@@ -1,19 +1,26 @@
+const routes = [
+    { path: "/", component: Home },
+    { path: "/about", component: About },
+    { path: "/contact", component: Contact }
+];
+
+const router = VueRouter.createRouter({
+    // 4. Provide the history implementation to use. We are using the hash history for simplicity here.
+    history: VueRouter.createWebHashHistory(),
+    routes, // short for `routes: routes`
+  });
 const app = Vue.createApp({
     data() {
         return {
-            active:false,
             navLink: 1
-        }
+        };
     },
-    computed: {
+    computed: {},
+    methods: {
         selected(num) {
             this.navLink = num;
         }
-    },
-    methods: {
-      toggleCoderAnimation() {
-        this.active = !this.active;
-      }
     }
 });
+app.use(router);
 app.mount("#nicgoodman-site");

@@ -12,6 +12,9 @@ module.exports = {
             fontSize: {
                 xs: ".75rem"
             },
+            outline: {
+                yellow: '2px solid #FBBF24'
+            },
             keyframes: {
               hoverBounce: {
                 '0%': { transform: 'translateY(0)', opacity: '1', animationTimingFunction: 'cubic-bezier(0.8, 0, 1, 1)' },
@@ -33,6 +36,7 @@ module.exports = {
     variants: {
         extend: {
             fontFamily: ["hover", "focus"],
+            fontWeight: ['hover', 'focus'],
             padding: ["hover", "focus"],
             fontSize: ["hover", "focus"],
             animation: ["hover", "focus"]

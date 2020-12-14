@@ -1,4 +1,5 @@
-<section id="work-content" class="flex flex-col items-center w-full">
+
+<section id="work" class="flex flex-col items-center w-full">
     <section
         id="hero"
         class="w-full h-192 bg-pink-600 border-b-4 border-yellow-400 bg-repeat bg-center flex flex-row-reverse"
@@ -6,18 +7,18 @@
     >
         <section
             id="coder-hero"
-            class="h-full w-1/2 bg-no-repeat bg-cover bg-opacity-50 flex flex-col items-center justify-center hero-angle transition-all"
-            style="background-image: url('{{ coder_background.url }}'), linear-gradient(rgba(49, 46, 129, 1), rgba(91, 33, 182, 1)); background-blend-mode: overlay;" :class="{ heroCoderAnimate: active }"
+            class="h-full w-1/2 bg-no-repeat bg-cover bg-opacity-50 flex flex-col items-center justify-center hero-angle transition-all duration-300 relative transform-gpu p-24"
+            style="background-image: url('{{ coder_background.url }}'), linear-gradient(rgba(49, 46, 129, 1), rgba(91, 33, 182, 1)); background-blend-mode: overlay;" :class="{ heroCoderAnimateFull: coderAnimation, heroCoderAnimateHide: designerAnimation }"
         >
-            <h1 class="font-extrabold font-script text-center text-yellow-400 hover:animate-hoverBounce cursor-pointer" @click="toggleCoderAnimation()">
+            <h1 class="font-extrabold font-script text-center text-yellow-400 hover:animate-hoverBounce cursor-pointer transition-all transform-gpu" @click="toggleCoderAnimation()" :class="{ left: coderAnimation }">
                 coder.
             </h1>
         </section>
         <section
             id="hero-designer"
-            class="h-full w-1/2 flex flex-col items-center justify-center"
+            class="h-full w-1/2 flex flex-col items-center justify-center transition-all p-24" :class="{ wnone: coderAnimation }"
         >
-            <h1 class="font-bold font-sans text-center text-green-100 hover:animate-hoverBounce cursor-pointer">
+            <h1 class="font-bold font-sans text-center text-green-100 hover:animate-hoverBounce cursor-pointer transition-all" @click="toggleDesignerAnimation()" :class="{ right: designerAnimation }">
                 designer.
             </h1>
         </section>
@@ -26,11 +27,12 @@
         {{ collection:projects }}
         <article
             id="{{ slug }}"
-            class="{{ project_type }}{{ slug }}{{ /project_type }} transition-all w-56 h-56 bg-cover bg-center border-2 border-yellow-400 m-8 shadow-offset-yellow cursor-pointer image-gradient-{{ slug }}"
+            class="{{ project_type }}{{ slug }}{{ /project_type }} transition-all relative w-56 h-56 bg-cover bg-center m-8 outline-yellow shadow-offset-yellow cursor-pointer z-30 image-gradient-{{ slug }}"
         >
+        <img src="{{ thumbnail.url }}" alt="" class="w-56 h-56 object-cover opacity-0 hover:opacity-100 transition-all z-40">
             <p
                 id=""
-                class="bg-green-100 w-auto m-2 py-1 pl-1 pr-5 text-pink-700 text-xs font-extrabold inline-block lowercase font-script"
+                class="bg-green-100 w-auto m-2 py-1 pl-1 pr-5 text-pink-700 text-xs font-extrabold inline-block lowercase font-script z-50 absolute top-0"
             >
                 {{ title }}
             </p>

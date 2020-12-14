@@ -4,29 +4,37 @@
         <title>{{ title }}</title>
         <link href='{{ link to="/css/tailwind.css" }}' rel="stylesheet" />
         <link rel="stylesheet" href="https://use.typekit.net/rds2exl.css" />
-        <script src="https://unpkg.com/htmx.org@1.0.1"></script>
         <script src="https://unpkg.com/vue@next"></script>
+        <script src="https://unpkg.com/vue-router@next"></script>
+        <script src="{{ link to="/js/home.vue.js"}}"></script>
+        <script src="{{ link to="/js/about.vue.js"}}"></script>
+        <script src="{{ link to="/js/contact.vue.js"}}"></script>
         <script src='{{ link to="/js/app.js"}}' defer></script>
         <style>
-        {{ collection:projects }}
-            .image-gradient-{{ slug }} {
-                background-image: linear-gradient(rgba(219, 39, 119, 0.75), rgba(76, 29, 149, 0.75)), url('{{ thumbnail.url }}');
-                background-blend-mode: darken;
-            }
-            .image-gradient-{{ slug }}:hover {
-                background-image: linear-gradient(rgba(219, 39, 119, 0.0), rgba(76, 29, 149, 0.0)), url('{{ thumbnail.url }}');
-            }
-         {{ /collection:projects}}
+            {{ collection:projects }}
+                .image-gradient-{{ slug }} {
+                    background-image: linear-gradient(rgba(219, 39, 119, 0.75), rgba(76, 29, 149, 0.75)), url('{{ thumbnail.url }}');
+                    background-blend-mode: darken;
+                }
+
+             {{ /collection:projects}}
         </style>
     </head>
+    <script type="text/x-template" id="work-content">
+        {{ partial:templates/work }}
+    </script>
+    <script type="text/x-template" id="about-content">
+        {{ partial:templates/about }}
+    </script>
+    <script type="text/x-template" id="contact-content">
+        {{ partial:templates/contact }}
+    </script>
     <body
         id="nicgoodman-site"
         class="bg-no-repeat bg-gradient-to-b from-gray-800 to-purple-900 min-h-screen flex flex-col items-center"
     >
-    {{ partial:partials/header }}
-        <section id="page-content" hx-swap-oob="true" class="w-full">
-            {{ template_content }}
-        </section>
+        {{ partial:partials/header }}
+        <router-view></router-view>
         {{ partial:partials/footer }}
     </body>
 </html>
