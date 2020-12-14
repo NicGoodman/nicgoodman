@@ -89,3 +89,8 @@ p {
 .pt-xs {
     padding-top: .125em;
 }
+
+.bard ul {
+    @apply list-disc;
+    @apply pl-10;
+}

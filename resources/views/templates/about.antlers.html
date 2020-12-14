@@ -12,18 +12,52 @@
             {{ title | lower }}
         </h1>
     </section>
-    <main id="about-content-wrapper" class="w-full max-w-6xl flex flex-row mt-8">
+    <main
+        id="about-content-wrapper"
+        class="w-full max-w-6xl flex flex-row mt-8"
+    >
         <article id="about-sidebar" class="flex-shrink-0">
-            <div id="avatars" class="relative w-56 h-56">
-            <img src="{{ avatar.url }}" class="w-56 h-56 outline-yellow absolute top-0 transition-opacity hover:opacity-0 z-50" alt="" />
-            <img src="{{ bio_picture.url }}" class="w-56 h-56 outline-yellow shadow-offset-yellow absolute top-0 z-40" alt="" />
+            <div id="avatars" class="relative w-56 h-56 mb-8">
+                <img
+                    src="{{ avatar.url }}"
+                    class="w-56 h-56 outline-yellow absolute top-0 transition-opacity hover:opacity-0 z-50"
+                    alt=""
+                />
+                <img
+                    src="{{ bio_picture.url }}"
+                    class="w-56 h-56 outline-yellow shadow-offset-yellow absolute top-0 z-40"
+                    alt=""
+                />
             </div>
+            <section id="tools" class="flex flex-col w-full">
+                <h3 class="font-sans font-bold text-green-100 pb-2 border-b-2 border-yellow-400 my-4">tools</h3>
+                {{ tools }}
+                <article id="" class="flex flex-row w-full items-end mb-4">
+                    <img src="{{ logo.url }}" alt="" class=" w-12 ">
+                    <caption id="" class="w-auto m-2 pt-2 pl-2 pr-6 h-7 leading-5 text-green-400 text-sm font-extrabold inline-block lowercase font-sans">{{ name }}</caption>
+                </article>
+                {{ /tools }}
+            </section>
         </article>
-        <article id="bio-content" class="flex flex-col p-8 text-yellow-400 font-sans font-bold">
+        <article
+            id="bio-content"
+            class="flex flex-col p-8 text-yellow-400 font-sans font-bold"
+        >
             <h2 id="bio-header" class="text-green-100 font-sans font-bold mb-2">
-                {{ about_header }} <span id="name" class="text-green-300">nic goodman</span>
+                {{ about_header }}
+                <span id="name" class="text-green-300">nic goodman</span>
             </h2>
             {{ bio }}
+            <h3 id="" class="mt-8 text-pink-600 bg-green-100 font-script font-extrabold pr-14 pl-2 py-1 self-start mb-4">experience</h3>
+            {{ resume }}
+            <section id="job-entry" class="w-full flex flex-col">
+                <h3 id="" class="font-sans font-bold text-green-100 pb-2 border-b-2 border-yellow-400 mb-2"><span id="" class="text-green-300">{{ title }}</span> / {{ company }} / {{ duration }} / {{ location }}</h3>
+                <article id="" class="bard text-yellow-400 font-sans font-bold list-disc">
+                    {{ description }}
+                </article>
+            </section>
+            {{ /resume }}
+            <h3 id="" class="mt-8 text-pink-600 bg-green-100 font-script font-extrabold pr-14 pl-2 py-1 self-start mb-4">education & achievements</h3>
         </article>
     </main>
 </section>

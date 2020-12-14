@@ -33720,6 +33720,11 @@ p {
   padding-top: .125em;
 }
 
+.bard ul {
+  list-style-type: disc;
+  padding-left: 2.5rem;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

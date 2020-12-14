@@ -121,42 +121,6 @@ sections:
           if:
             template: 'equals templates/about'
       -
-        handle: tools
-        field:
-          collapse: false
-          sets:
-            new_tool:
-              display: 'New Tool'
-              fields:
-                -
-                  handle: logo
-                  field:
-                    mode: grid
-                    restrict: false
-                    allow_uploads: true
-                    max_files: 1
-                    display: Logo
-                    type: assets
-                    icon: assets
-                    width: 33
-                    listable: hidden
-                -
-                  handle: name
-                  field:
-                    input_type: text
-                    antlers: false
-                    display: Name
-                    type: text
-                    icon: text
-                    width: 66
-                    listable: hidden
-          display: Tools
-          type: replicator
-          icon: replicator
-          listable: hidden
-          if:
-            template: 'equals templates/about'
-      -
         handle: resume
         field:
           collapse: false
@@ -173,6 +137,7 @@ sections:
                     type: text
                     icon: text
                     listable: hidden
+                    width: 33
                 -
                   handle: company
                   field:
@@ -182,6 +147,7 @@ sections:
                     type: text
                     icon: text
                     listable: hidden
+                    width: 33
                 -
                   handle: duration
                   field:
@@ -191,6 +157,7 @@ sections:
                     type: text
                     icon: text
                     listable: hidden
+                    width: 33
                 -
                   handle: location
                   field:
@@ -200,6 +167,7 @@ sections:
                     type: text
                     icon: text
                     listable: hidden
+                    width: 50
                 -
                   handle: description
                   field:
@@ -287,6 +255,124 @@ sections:
                     icon: bard
                     listable: hidden
           display: Resume
+          type: replicator
+          icon: replicator
+          listable: hidden
+          if:
+            template: 'equals templates/about'
+      -
+        handle: education
+        field:
+          collapse: false
+          sets:
+            new_set:
+              display: 'New Set'
+              fields:
+                -
+                  handle: achievement
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Achievement
+                    type: text
+                    icon: text
+                    width: 33
+                    listable: hidden
+                -
+                  handle: institution
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Institution
+                    type: text
+                    icon: text
+                    width: 33
+                    listable: hidden
+                -
+                  handle: duration
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Duration
+                    type: text
+                    icon: text
+                    width: 33
+                    listable: hidden
+                -
+                  handle: location
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Location
+                    type: text
+                    icon: text
+                    width: 50
+                    listable: hidden
+                -
+                  handle: description
+                  field:
+                    always_show_set_button: false
+                    buttons:
+                      - h2
+                      - h3
+                      - bold
+                      - italic
+                      - unorderedlist
+                      - orderedlist
+                      - removeformat
+                      - quote
+                      - anchor
+                      - image
+                      - table
+                    save_html: false
+                    toolbar_mode: fixed
+                    link_noopener: false
+                    link_noreferrer: false
+                    target_blank: false
+                    reading_time: false
+                    fullscreen: true
+                    allow_source: true
+                    display: Description
+                    type: bard
+                    icon: bard
+                    listable: hidden
+          display: Education
+          type: replicator
+          icon: replicator
+          listable: hidden
+          if:
+            template: 'equals templates/about'
+      -
+        handle: tools
+        field:
+          collapse: false
+          sets:
+            new_tool:
+              display: 'New Tool'
+              fields:
+                -
+                  handle: logo
+                  field:
+                    mode: grid
+                    restrict: false
+                    allow_uploads: true
+                    max_files: 1
+                    display: Logo
+                    type: assets
+                    icon: assets
+                    width: 33
+                    listable: hidden
+                -
+                  handle: name
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Name
+                    type: text
+                    icon: text
+                    width: 66
+                    listable: hidden
+          display: Tools
           type: replicator
           icon: replicator
           listable: hidden
