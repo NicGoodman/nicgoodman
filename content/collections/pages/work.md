@@ -2,7 +2,7 @@
 title: Work
 author: b8cab3f6-baa5-4311-822b-8ad388e79916
 updated_by: b8cab3f6-baa5-4311-822b-8ad388e79916
-updated_at: 1607899134
+updated_at: 1607991482
 template: templates/work
 layout: layouts/layout
 designer_background: designer-background.png
