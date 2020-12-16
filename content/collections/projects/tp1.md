@@ -12,7 +12,7 @@ project_type:
 services:
   - identity-and-branding
 updated_by: b8cab3f6-baa5-4311-822b-8ad388e79916
-updated_at: 1607320165
+updated_at: 1608162870
 project_description:
   -
     type: paragraph
@@ -23,6 +23,14 @@ project_description:
 gallery_images:
   - projects/adc_feb+copy.jpg
   - projects/adc_JanuaryDesignForumNEWCOLORSALT-01.jpg
+  - nic-bio-pic-test.JPG
+  - nicAvatar2020-01.svg
+  - nicAvatar2020-Square-02.svg
+  - nicAvatar2020.png
+  - tool-icons-01.svg
+  - tool-icons-02.svg
+  - tool-icons-03.svg
+  - tool-icons-04.svg
 thumbnail: projects/adc_JanuaryDesignForumNEWCOLORSALT-01.jpg
 id: 750a9635-af4b-4b3a-8dde-d16cfeb2c3b6
 ---
