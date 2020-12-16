@@ -117,3 +117,12 @@ p {
     @apply list-disc;
     @apply pl-10;
 }
+
+.bgScrollOff {
+    /* when modal active */
+    touch-action: none !important;
+    -webkit-overflow-scrolling: none !important;
+    overflow: hidden !important;
+    /* Other browsers */
+    overscroll-behavior: none !important;
+}

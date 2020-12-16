@@ -2,12 +2,12 @@
 <section id="about-content" class="flex flex-col items-center">
     <section
         id="about-hero"
-        class="w-screen h-96 flex flex-row p-24 items-end border-b-4 border-yellow-400 bg-repeat bg-center"
+        class="w-screen h-64 md:h-96 flex flex-row p-4 md:p-24 items-end border-b-2 md:border-b-4 border-yellow-400 bg-repeat bg-center"
         style="background-image: url('{{ hero_background.url }}'), linear-gradient(rgba(219, 39, 119, 1), rgba(236, 72, 153, 1));"
     >
         <h1
             id="page-title"
-            class="font-bold font-sans text-center text-green-100"
+            class="font-bold font-sans text-left md:text-center text-green-100 text-5xl md:text-6xl lg:text-7xl"
         >
             {{ title | lower }}
         </h1>
@@ -30,7 +30,7 @@
                 />
             </div>
             <section id="tools" class="flex flex-col w-full">
-                <h3 class="font-sans font-bold text-green-100 pb-2 border-b-2 border-yellow-400 my-4">tools</h3>
+                <h3 class="text-pink-600 bg-green-100 font-script font-extrabold pr-10 pl-2 py-1 self-start mb-4 text-base md:text-xl lg:text-2xl my-4">tools</h3>
                 {{ tools }}
                 <article id="" class="flex flex-row w-full items-end mb-4">
                     <img src="{{ logo.url }}" alt="" class="md:w-10 lg:w-12 ">
@@ -44,7 +44,7 @@
             class="flex flex-row flex-wrap md:flex-col py-8 md:pl-12 lg:pl-16 text-yellow-400 font-sans font-bold"
         >
         <section id="bio-wrapper" class="w-full">
-            <h2 id="bio-header" class="text-green-100 font-sans font-bold mb-6 md:mb-2">
+            <h2 id="bio-header" class="text-green-100 font-sans font-bold mb-6 md:mb-2 text-3xl md:text-4xl">
                 {{ about_header }}
                 <span id="name" class="text-green-300">nic goodman</span>
             </h2>
@@ -62,7 +62,7 @@
             </div>
             {{ bio }}
         </section>
-            <h3 id="" class="mt-8 text-pink-600 bg-green-100 font-script font-extrabold pr-14 pl-2 py-1 self-start mb-4 text-lg md:text-xl lg:text-2xl">experience</h3>
+            <h3 id="" class="mt-8 text-pink-600 bg-green-100 font-script font-extrabold pr-10 pl-2 py-1 self-start mb-4 text-base md:text-xl lg:text-2xl">experience</h3>
             {{ resume }}
             <section id="job-entry" class="w-full flex flex-col">
                 <h3 id="" class="font-sans font-bold text-green-100 pb-2 border-b-2 border-yellow-400 mb-2 text-lg md:text-xl lg:text-2xl"><span id="" class="text-green-300">{{ title }}</span> / {{ company }} / {{ duration }} / {{ location }}</h3>
@@ -71,10 +71,10 @@
                 </article>
             </section>
             {{ /resume }}
-            <h3 id="" class="mt-8 text-pink-600 bg-green-100 font-script font-extrabold pr-14 pl-2 py-1 self-start mb-4 text-lg md:text-xl lg:text-2xl">education & achievements</h3>
+            <h3 id="" class="mt-8 text-pink-600 bg-green-100 font-script font-extrabold pr-10 pl-2 py-1 self-start mb-4 text-base md:text-xl lg:text-2xl">education & achievements</h3>
 
             <section id="tools-mobile" class="flex flex-col w-full md:hidden">
-                <h3 class="font-sans font-bold text-green-100 pb-2 border-b-2 border-yellow-400 my-4">tools</h3>
+                <h3 class="text-pink-600 bg-green-100 font-script font-extrabold pr-10 pl-2 py-1 self-start mb-4 text-base md:text-xl lg:text-2xl">tools</h3>
                 {{ tools }}
                 <article id="" class="flex flex-row w-full items-end mb-4">
                     <img src="{{ logo.url }}" alt="" class="w-10 lg:w-12 ">

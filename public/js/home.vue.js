@@ -6,7 +6,8 @@ var Home = {
             designerAnimation: false,
             projectFilter: 'all',
             showProject: false,
-            projectContent: ''
+            projectContent: '',
+            backgroundScroll: true
         };
     },
     computed: {},
@@ -28,6 +29,15 @@ var Home = {
         },
         toggleProject() {
             this.showProject = !this.showProject;
+        },
+        toggleScroll() {
+            if ( this.backgroundScroll === true ) {
+                document.body.classList.add("bgScrollOff");
+                this.backgroundScroll = !this.backgroundScroll;
+            } else {
+                document.body.classList.remove("bgScrollOff");
+                this.backgroundScroll = !this.backgroundScroll;
+            }
         }
     }
 };

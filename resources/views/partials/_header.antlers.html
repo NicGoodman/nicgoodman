@@ -9,7 +9,7 @@
         {{ nav include_home="true" }}
         <router-link id="nav-item" class="w-18 md:w-24 h-7" to="{{ url }}">
             <span
-                class="hover:bg-green-100 pr-1 pl-5 text-green-100 font-sans hover:font-script text-right font-bold hover:font-extrabold hover:text-pink-600 lowercase text-base hover:text-sm align-middle py-1"
+                class="hover:bg-green-100 pl-1 pr-5 md:pr-1 md:pl-5 text-green-100 font-sans hover:font-script text-right font-bold hover:font-extrabold hover:text-pink-600 lowercase text-base hover:text-sm align-middle py-1"
                 @click="selected({{ count }})"
                 :class="{currentPage:navLink == {{ count }}}"
                 style="transition: background-color 0.2s ease-in-out"
