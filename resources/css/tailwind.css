@@ -35,11 +35,7 @@ p {
     box-shadow: 12px 12px 0 1px #FBBF24;
 }
 .currentPage {
-    @apply font-extrabold;
-    @apply text-pink-600;
-    @apply font-script;
-    @apply bg-green-100;
-    @apply text-sm;
+
 }
 
 
@@ -125,4 +121,12 @@ p {
     overflow: hidden !important;
     /* Other browsers */
     overscroll-behavior: none !important;
+}
+
+.router-link-active {
+    @apply font-extrabold;
+    @apply text-pink-600;
+    @apply font-script;
+    @apply bg-green-100;
+    @apply text-sm;
 }

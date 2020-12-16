@@ -30,5 +30,4 @@ var Home = {
             this.showProject = !this.showProject;
         }
         }
-    }
 };

@@ -33669,14 +33669,6 @@ p {
 }
 
 .currentPage {
-  font-weight: 800;
-  --tw-text-opacity: 1;
-  color: rgba(219, 39, 119, var(--tw-text-opacity));
-  font-family: dico-mono-script, mono;
-  --tw-bg-opacity: 1;
-  background-color: rgba(209, 250, 229, var(--tw-bg-opacity));
-  font-size: 0.875rem;
-  line-height: 1.25rem;
 }
 
 .hero-angle {
@@ -33765,6 +33757,17 @@ p {
   /* Other browsers */
   -ms-scroll-chaining: none !important;
       overscroll-behavior: none !important;
+}
+
+.router-link-active {
+  font-weight: 800;
+  --tw-text-opacity: 1;
+  color: rgba(219, 39, 119, var(--tw-text-opacity));
+  font-family: dico-mono-script, mono;
+  --tw-bg-opacity: 1;
+  background-color: rgba(209, 250, 229, var(--tw-bg-opacity));
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 @media (min-width: 640px) {
