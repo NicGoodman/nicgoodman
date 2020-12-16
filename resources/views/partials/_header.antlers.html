@@ -1,13 +1,13 @@
 <header
     id="site-header"
-    class="w-full p-10 flex flex-row justify-between absolute top-0 left-0 z-50"
+    class="w-full  p-5 md:p-10 flex flex-col md:flex-row justify-between absolute top-0 left-0 z-50"
 >
-    <h2 id="site-greeting" class="font-3xl font-bold font-sans text-green-100">
-        hi i'm <span id="name" class="text-green-300">nic</span>
+    <h2 id="site-greeting" class="font-3xl font-bold font-sans text-green-100 mb-4 md:mb-0">
+        hi, i'm <span id="name" class="text-green-300">nic</span>
     </h2>
-    <nav id="main-navigation" class="flex flex-row">
+    <nav id="main-navigation" class="flex flex-row flex-wrap md:flex-no-wrap md:self-center">
         {{ nav include_home="true" }}
-        <router-link id="nav-item" class="w-24 h-7" to="{{ url }}">
+        <router-link id="nav-item" class="w-20 md:w-24 h-7" to="{{ url }}">
             <span
                 class="hover:bg-green-100 pr-1 pl-5 text-green-100 font-sans hover:font-script text-right font-bold hover:font-extrabold hover:text-pink-600 lowercase text-base hover:text-sm align-middle py-1"
                 @click="selected({{ count }})"
