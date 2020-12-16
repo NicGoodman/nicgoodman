@@ -2,12 +2,12 @@
 <section id="work" class="flex flex-col items-center w-full">
     <section
         id="hero"
-        class="w-full h-192 bg-pink-600 border-b-4 border-yellow-400 bg-repeat bg-center flex flex-col-reverse md:flex-row-reverse"
+        class="w-full h-192 bg-pink-600 border-b-4 border-yellow-400 bg-repeat bg-center hidden md:flex flex-col-reverse md:flex-row-reverse"
         style="background-image: url('{{ designer_background.url }}'), linear-gradient(rgba(219, 39, 119, 1), rgba(236, 72, 153, 1));"
     >
         <section
             id="coder-hero"
-            class="h-64 md:h-full w-full md:w-1/2 bg-no-repeat bg-cover bg-opacity-50 flex flex-col items-center justify-center hero-angle transition-all duration-300 relative transform-gpu p-24"
+            class="h-full w-1/2 bg-no-repeat bg-cover bg-opacity-50 flex flex-col items-center justify-center hero-angle transition-all duration-300 relative transform-gpu p-24"
             style="background-image: url('{{ coder_background.url }}'), linear-gradient(rgba(49, 46, 129, 1), rgba(91, 33, 182, 1)); background-blend-mode: overlay;"
             :class="{ heroCoderAnimateFull: coderAnimation, heroCoderAnimateHide: designerAnimation }"
         >
@@ -21,7 +21,7 @@
         </section>
         <section
             id="hero-designer"
-            class="h-64 md:h-full w-full md:w-1/2 flex flex-col items-end md:items-center justify-center transition-all p-24"
+            class="h-full w-1/2 flex flex-col items-center justify-center transition-all p-24"
             :class="{ wnone: coderAnimation }"
         >
             <h1
@@ -33,7 +33,46 @@
             </h1>
         </section>
     </section>
-    <section id="projects" class="flex flex-row flex-wrap justify-center w-full max-w-6xl">
+
+    <section
+        id="hero-mobile"
+        class="w-full bg-pink-600 border-b-2 border-yellow-400 bg-repeat bg-center flex md:hidden flex-col-reverse transition-all pt-32"
+        style="background-image: url('{{ designer_background.url }}'), linear-gradient(rgba(219, 39, 119, 1), rgba(236, 72, 153, 1));"
+        
+    >
+        <section
+            id="coder-hero-mobile"
+            class="h-full w-full bg-no-repeat mt-0 bg-cover bg-opacity-50 flex flex-col items-center justify-center transition-all duration-300 relative transform-gpu p-24"
+            style="background-image: url('{{ coder_background.url }}'), linear-gradient(rgba(49, 46, 129, 1), rgba(91, 33, 182, 1)); background-blend-mode: overlay;"
+            :class="{ heroCoderAnimateFullMobile: coderAnimation, heroCoderAnimateHideMobile: designerAnimation }"
+        >
+            <h1
+                class="font-extrabold font-script text-center text-yellow-400 hover:animate-hoverBounce cursor-pointer transition-all transform-gpu text-5xl md:text-6xl lg:text-7xl"
+                @click="toggleCoderAnimation(); setProjectFilter('code')"
+                :class="{ hidden: designerAnimation }"
+            >
+                coder.
+            </h1>
+        </section>
+        <section
+            id="hero-designer-mobile"
+            class="h-full w-full flex flex-col items-center justify-center transition-all p-24 border-t-2 border-yellow-400"
+            :class="{ hnone: coderAnimation }"
+        >
+            <h1
+                class="font-bold font-sans text-center text-green-100 hover:animate-hoverBounce cursor-pointer transition-all text-5xl md:text-6xl lg:text-7xl"
+                @click="toggleDesignerAnimation(); setProjectFilter('design')"
+                :class="{ hidden: coderAnimation }"
+            >
+                designer.
+            </h1>
+        </section>
+    </section>
+
+    <section
+        id="projects"
+        class="flex flex-row flex-wrap justify-center w-full max-w-6xl"
+    >
         {{ collection:projects }}
         <article
             id="{{ slug }}"
@@ -55,7 +94,11 @@
         </article>
         {{ /collection:projects }}
     </section>
-    <section id="project" class="absolute bottom-0 left-0 min-h-screen z-50 bg-no-repeat bg-gradient-to-b from-gray-800 to-purple-900 h-full w-screen transition-all transform-gpu flex flex-col items-center" :class="{ projectContentAnimate: !showProject }">
+    <section
+        id="project"
+        class="absolute bottom-0 left-0 min-h-screen z-50 bg-no-repeat bg-gradient-to-b from-gray-800 to-purple-900 h-full w-screen transition-all transform-gpu flex flex-col items-center"
+        :class="{ projectContentAnimate: !showProject }"
+    >
         <i
             class="fas fa-times-circle transition-all hover:animate-pulse text-yellow-400 text-3xl absolute top-0 right-0 m-8 cursor-pointer hover:text-pink-600"
             @click="toggleProject()"

@@ -42,25 +42,48 @@ p {
     @apply text-sm;
 }
 
+
 .hero-angle {
     clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
 }
 
 .heroCoderAnimateFull {
     clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%);
-    @apply w-full;
+    width: 100% !important;
 }
 
 .heroCoderAnimateHide {
     clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%);
-    @apply w-0;
+    width: 0 !important;
     @apply p-0;
 }
 
 .wnone {
-    @apply w-0;
+    width: 0 !important;
     @apply p-0;
 }
+
+
+
+.heroCoderAnimateFullMobile {
+    height: 100% !important;
+    @apply border-t-2;
+    @apply border-yellow-400;
+}
+
+.heroCoderAnimateHideMobile {
+    height: 0 !important;
+    margin-top: 0rem !important;
+    @apply p-0;
+}
+
+.hnone {
+    height: 0 !important;
+    margin-top: 0 !important;
+    @apply border-t-0;
+    @apply p-0;
+}
+
 
 .left {
     @apply self-start;
