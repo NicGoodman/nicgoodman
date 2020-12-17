@@ -8,11 +8,11 @@ bard:
         type: text
         text: 'Lorem Ipsum'
 project_type:
-  - code
+  - all
 services:
   - identity-and-branding
 updated_by: b8cab3f6-baa5-4311-822b-8ad388e79916
-updated_at: 1608162870
+updated_at: 1608235804
 project_description:
   -
     type: paragraph
