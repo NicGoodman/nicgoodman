@@ -6,11 +6,15 @@ var Contact = {
 			name: null,
 			email: null,
 			phone: null,
-			message: null
+			message: null,
+			navLink: 3
 			},
         }
     },
     methods: {
+		selected(num) {
+            this.navLink = num;
+        },
         encode(data) {  
             const formData = new FormData();
             

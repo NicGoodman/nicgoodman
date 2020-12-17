@@ -8,11 +8,15 @@ var Home = {
             showProject: false,
             projectContent: "",
             showClass: 'opacity-100 max-h-full visible max-w-full m-6 md:m-8',
-            hideClass: 'opacity-0 max-h-0 invisible max-w-0 m-0 overflow-hidden'
+            hideClass: 'opacity-0 max-h-0 invisible max-w-0 m-0 overflow-hidden',
+            navLink: 1
         };
     },
     computed: {},
     methods: {
+        selected(num) {
+            this.navLink = num;
+        },
         toggleCoderAnimation() {
             this.coderAnimation = !this.coderAnimation;
         },
