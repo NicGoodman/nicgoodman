@@ -12,7 +12,7 @@
             :class="{ heroCoderAnimateFull: coderAnimation, heroCoderAnimateHide: designerAnimation }"
         >
             <h1
-                class="font-extrabold font-script text-center text-yellow-400 hover:animate-hoverBounce cursor-pointer transition-all transform-gpu text-5xl md:text-6xl lg:text-7xl"
+                class="font-extrabold font-script text-center text-yellow-400 animate-initialBounceLeft hover:animate-hoverBounceLeft cursor-pointer transition-all transform-gpu text-5xl md:text-6xl lg:text-7xl"
                 @click="toggleCoderAnimation(); setProjectFilter('code')"
                 :class="{ left: coderAnimation }"
             >
@@ -25,7 +25,7 @@
             :class="{ wnone: coderAnimation }"
         >
             <h1
-                class="font-bold font-sans text-center text-green-100 hover:animate-hoverBounce cursor-pointer transition-all text-5xl md:text-6xl lg:text-7xl"
+                class="font-bold font-sans text-center text-green-100 animate-initialBounceRight hover:animate-hoverBounceRight cursor-pointer transition-all text-5xl md:text-6xl lg:text-7xl"
                 @click="toggleDesignerAnimation(); setProjectFilter('design')"
                 :class="{ right: designerAnimation }"
             >
@@ -42,12 +42,12 @@
     >
         <section
             id="coder-hero-mobile"
-            class="h-full w-full bg-no-repeat mt-0 bg-cover bg-opacity-50 flex flex-col items-center justify-center transition-all duration-300 relative transform-gpu p-24"
+            class="h-full w-full bg-no-repeat mt-0 bg-cover bg-opacity-50 flex flex-col items-center justify-center transition-all duration-300 relative transform-gpu p-24 hero-angle-mobile"
             style="background-image: url('{{ coder_background.url }}'), linear-gradient(rgba(49, 46, 129, 1), rgba(91, 33, 182, 1)); background-blend-mode: overlay;"
             :class="{ heroCoderAnimateFullMobile: coderAnimation, heroCoderAnimateHideMobile: designerAnimation }"
         >
             <h1
-                class="font-extrabold font-script text-center text-yellow-400 hover:animate-hoverBounce cursor-pointer transition-all transform-gpu text-5xl md:text-6xl lg:text-7xl"
+                class="font-extrabold font-script text-center text-yellow-400 animate-initialBounceUp hover:animate-hoverBounceUp cursor-pointer transition-all transform-gpu text-5xl md:text-6xl lg:text-7xl"
                 @click="toggleCoderAnimation(); setProjectFilter('code')"
                 :class="{ hidden: designerAnimation }"
             >
@@ -60,7 +60,7 @@
             :class="{ hnone: coderAnimation }"
         >
             <h1
-                class="font-bold font-sans text-center text-green-100 hover:animate-hoverBounce cursor-pointer transition-all text-5xl md:text-6xl lg:text-7xl"
+                class="font-bold font-sans text-center text-green-100 animate-initialBounceDown hover:animate-hoverBounceDown cursor-pointer transition-all text-5xl md:text-6xl lg:text-7xl"
                 @click="toggleDesignerAnimation(); setProjectFilter('design')"
                 :class="{ hidden: coderAnimation }"
             >

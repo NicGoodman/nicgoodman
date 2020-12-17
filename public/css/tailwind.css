@@ -33524,7 +33524,7 @@ p {
   }
 }
 
-@-webkit-keyframes hoverBounce {
+@-webkit-keyframes hoverBounceUp {
   0% {
     transform: translateY(0);
     opacity: 1;
@@ -33547,7 +33547,7 @@ p {
   }
 }
 
-@keyframes hoverBounce {
+@keyframes hoverBounceUp {
   0% {
     transform: translateY(0);
     opacity: 1;
@@ -33564,6 +33564,144 @@ p {
 
   100% {
     transform: translateY(0);
+    opacity: 1;
+    -webkit-animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+            animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+}
+
+@-webkit-keyframes hoverBounceDown {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+    -webkit-animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+            animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+
+  50% {
+    transform: translateY(10%);
+    opacity: 0.66;
+    -webkit-animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+            animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+    -webkit-animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+            animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+}
+
+@keyframes hoverBounceDown {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+    -webkit-animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+            animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+
+  50% {
+    transform: translateY(10%);
+    opacity: 0.66;
+    -webkit-animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+            animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+    -webkit-animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+            animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+}
+
+@-webkit-keyframes hoverBounceLeft {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+    -webkit-animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+            animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+
+  50% {
+    transform: translateX(-10%);
+    opacity: 0.66;
+    -webkit-animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+            animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+    -webkit-animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+            animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+}
+
+@keyframes hoverBounceLeft {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+    -webkit-animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+            animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+
+  50% {
+    transform: translateX(-10%);
+    opacity: 0.66;
+    -webkit-animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+            animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+    -webkit-animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+            animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+}
+
+@-webkit-keyframes hoverBounceRight {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+    -webkit-animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+            animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+
+  50% {
+    transform: translateX(10%);
+    opacity: 0.66;
+    -webkit-animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+            animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+    -webkit-animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+            animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+}
+
+@keyframes hoverBounceRight {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+    -webkit-animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+            animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+
+  50% {
+    transform: translateX(10%);
+    opacity: 0.66;
+    -webkit-animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+            animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+
+  100% {
+    transform: translateX(0);
     opacity: 1;
     -webkit-animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
             animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
@@ -33595,9 +33733,44 @@ p {
           animation: bounce 1s infinite;
 }
 
-.animate-hoverBounce {
-  -webkit-animation: hoverBounce 1s infinite ease-in-out;
-          animation: hoverBounce 1s infinite ease-in-out;
+.animate-hoverBounceUp {
+  -webkit-animation: hoverBounceUp 1s infinite ease-in-out;
+          animation: hoverBounceUp 1s infinite ease-in-out;
+}
+
+.animate-hoverBounceDown {
+  -webkit-animation: hoverBounceDown 1s infinite ease-in-out;
+          animation: hoverBounceDown 1s infinite ease-in-out;
+}
+
+.animate-hoverBounceLeft {
+  -webkit-animation: hoverBounceLeft 1s infinite ease-in-out;
+          animation: hoverBounceLeft 1s infinite ease-in-out;
+}
+
+.animate-hoverBounceRight {
+  -webkit-animation: hoverBounceRight 1s infinite ease-in-out;
+          animation: hoverBounceRight 1s infinite ease-in-out;
+}
+
+.animate-initialBounceUp {
+  -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
+          animation: hoverBounceUp 1s 3 ease-in-out;
+}
+
+.animate-initialBounceDown {
+  -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
+          animation: hoverBounceDown 1s 3 ease-in-out;
+}
+
+.animate-initialBounceLeft {
+  -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
+          animation: hoverBounceLeft 1s 3 ease-in-out;
+}
+
+.animate-initialBounceRight {
+  -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
+          animation: hoverBounceRight 1s 3 ease-in-out;
 }
 
 .hover\:animate-none:hover {
@@ -33625,9 +33798,44 @@ p {
           animation: bounce 1s infinite;
 }
 
-.hover\:animate-hoverBounce:hover {
-  -webkit-animation: hoverBounce 1s infinite ease-in-out;
-          animation: hoverBounce 1s infinite ease-in-out;
+.hover\:animate-hoverBounceUp:hover {
+  -webkit-animation: hoverBounceUp 1s infinite ease-in-out;
+          animation: hoverBounceUp 1s infinite ease-in-out;
+}
+
+.hover\:animate-hoverBounceDown:hover {
+  -webkit-animation: hoverBounceDown 1s infinite ease-in-out;
+          animation: hoverBounceDown 1s infinite ease-in-out;
+}
+
+.hover\:animate-hoverBounceLeft:hover {
+  -webkit-animation: hoverBounceLeft 1s infinite ease-in-out;
+          animation: hoverBounceLeft 1s infinite ease-in-out;
+}
+
+.hover\:animate-hoverBounceRight:hover {
+  -webkit-animation: hoverBounceRight 1s infinite ease-in-out;
+          animation: hoverBounceRight 1s infinite ease-in-out;
+}
+
+.hover\:animate-initialBounceUp:hover {
+  -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
+          animation: hoverBounceUp 1s 3 ease-in-out;
+}
+
+.hover\:animate-initialBounceDown:hover {
+  -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
+          animation: hoverBounceDown 1s 3 ease-in-out;
+}
+
+.hover\:animate-initialBounceLeft:hover {
+  -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
+          animation: hoverBounceLeft 1s 3 ease-in-out;
+}
+
+.hover\:animate-initialBounceRight:hover {
+  -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
+          animation: hoverBounceRight 1s 3 ease-in-out;
 }
 
 .focus\:animate-none:focus {
@@ -33655,9 +33863,44 @@ p {
           animation: bounce 1s infinite;
 }
 
-.focus\:animate-hoverBounce:focus {
-  -webkit-animation: hoverBounce 1s infinite ease-in-out;
-          animation: hoverBounce 1s infinite ease-in-out;
+.focus\:animate-hoverBounceUp:focus {
+  -webkit-animation: hoverBounceUp 1s infinite ease-in-out;
+          animation: hoverBounceUp 1s infinite ease-in-out;
+}
+
+.focus\:animate-hoverBounceDown:focus {
+  -webkit-animation: hoverBounceDown 1s infinite ease-in-out;
+          animation: hoverBounceDown 1s infinite ease-in-out;
+}
+
+.focus\:animate-hoverBounceLeft:focus {
+  -webkit-animation: hoverBounceLeft 1s infinite ease-in-out;
+          animation: hoverBounceLeft 1s infinite ease-in-out;
+}
+
+.focus\:animate-hoverBounceRight:focus {
+  -webkit-animation: hoverBounceRight 1s infinite ease-in-out;
+          animation: hoverBounceRight 1s infinite ease-in-out;
+}
+
+.focus\:animate-initialBounceUp:focus {
+  -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
+          animation: hoverBounceUp 1s 3 ease-in-out;
+}
+
+.focus\:animate-initialBounceDown:focus {
+  -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
+          animation: hoverBounceDown 1s 3 ease-in-out;
+}
+
+.focus\:animate-initialBounceLeft:focus {
+  -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
+          animation: hoverBounceLeft 1s 3 ease-in-out;
+}
+
+.focus\:animate-initialBounceRight:focus {
+  -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
+          animation: hoverBounceRight 1s 3 ease-in-out;
 }
 
 .shadow-offset-yellow {
@@ -33666,9 +33909,6 @@ p {
 
 .shadow-offset-yellow:hover {
   box-shadow: 12px 12px 0 1px #FBBF24;
-}
-
-.currentPage {
 }
 
 .router-link-exact-active {
@@ -33705,8 +33945,15 @@ p {
   padding: 0px;
 }
 
+.hero-angle-mobile {
+  -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+}
+
 .heroCoderAnimateFullMobile {
   height: 100% !important;
+  -webkit-clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%);
   border-top-width: 2px;
   --tw-border-opacity: 1;
   border-color: rgba(251, 191, 36, var(--tw-border-opacity));
@@ -33714,6 +33961,8 @@ p {
 
 .heroCoderAnimateHideMobile {
   height: 0 !important;
+  -webkit-clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%);
   margin-top: 0rem !important;
   padding: 0px;
 }
@@ -66679,9 +66928,44 @@ p {
             animation: bounce 1s infinite;
   }
 
-  .sm\:animate-hoverBounce {
-    -webkit-animation: hoverBounce 1s infinite ease-in-out;
-            animation: hoverBounce 1s infinite ease-in-out;
+  .sm\:animate-hoverBounceUp {
+    -webkit-animation: hoverBounceUp 1s infinite ease-in-out;
+            animation: hoverBounceUp 1s infinite ease-in-out;
+  }
+
+  .sm\:animate-hoverBounceDown {
+    -webkit-animation: hoverBounceDown 1s infinite ease-in-out;
+            animation: hoverBounceDown 1s infinite ease-in-out;
+  }
+
+  .sm\:animate-hoverBounceLeft {
+    -webkit-animation: hoverBounceLeft 1s infinite ease-in-out;
+            animation: hoverBounceLeft 1s infinite ease-in-out;
+  }
+
+  .sm\:animate-hoverBounceRight {
+    -webkit-animation: hoverBounceRight 1s infinite ease-in-out;
+            animation: hoverBounceRight 1s infinite ease-in-out;
+  }
+
+  .sm\:animate-initialBounceUp {
+    -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
+            animation: hoverBounceUp 1s 3 ease-in-out;
+  }
+
+  .sm\:animate-initialBounceDown {
+    -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
+            animation: hoverBounceDown 1s 3 ease-in-out;
+  }
+
+  .sm\:animate-initialBounceLeft {
+    -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
+            animation: hoverBounceLeft 1s 3 ease-in-out;
+  }
+
+  .sm\:animate-initialBounceRight {
+    -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
+            animation: hoverBounceRight 1s 3 ease-in-out;
   }
 
   .sm\:hover\:animate-none:hover {
@@ -66709,9 +66993,44 @@ p {
             animation: bounce 1s infinite;
   }
 
-  .sm\:hover\:animate-hoverBounce:hover {
-    -webkit-animation: hoverBounce 1s infinite ease-in-out;
-            animation: hoverBounce 1s infinite ease-in-out;
+  .sm\:hover\:animate-hoverBounceUp:hover {
+    -webkit-animation: hoverBounceUp 1s infinite ease-in-out;
+            animation: hoverBounceUp 1s infinite ease-in-out;
+  }
+
+  .sm\:hover\:animate-hoverBounceDown:hover {
+    -webkit-animation: hoverBounceDown 1s infinite ease-in-out;
+            animation: hoverBounceDown 1s infinite ease-in-out;
+  }
+
+  .sm\:hover\:animate-hoverBounceLeft:hover {
+    -webkit-animation: hoverBounceLeft 1s infinite ease-in-out;
+            animation: hoverBounceLeft 1s infinite ease-in-out;
+  }
+
+  .sm\:hover\:animate-hoverBounceRight:hover {
+    -webkit-animation: hoverBounceRight 1s infinite ease-in-out;
+            animation: hoverBounceRight 1s infinite ease-in-out;
+  }
+
+  .sm\:hover\:animate-initialBounceUp:hover {
+    -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
+            animation: hoverBounceUp 1s 3 ease-in-out;
+  }
+
+  .sm\:hover\:animate-initialBounceDown:hover {
+    -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
+            animation: hoverBounceDown 1s 3 ease-in-out;
+  }
+
+  .sm\:hover\:animate-initialBounceLeft:hover {
+    -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
+            animation: hoverBounceLeft 1s 3 ease-in-out;
+  }
+
+  .sm\:hover\:animate-initialBounceRight:hover {
+    -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
+            animation: hoverBounceRight 1s 3 ease-in-out;
   }
 
   .sm\:focus\:animate-none:focus {
@@ -66739,9 +67058,44 @@ p {
             animation: bounce 1s infinite;
   }
 
-  .sm\:focus\:animate-hoverBounce:focus {
-    -webkit-animation: hoverBounce 1s infinite ease-in-out;
-            animation: hoverBounce 1s infinite ease-in-out;
+  .sm\:focus\:animate-hoverBounceUp:focus {
+    -webkit-animation: hoverBounceUp 1s infinite ease-in-out;
+            animation: hoverBounceUp 1s infinite ease-in-out;
+  }
+
+  .sm\:focus\:animate-hoverBounceDown:focus {
+    -webkit-animation: hoverBounceDown 1s infinite ease-in-out;
+            animation: hoverBounceDown 1s infinite ease-in-out;
+  }
+
+  .sm\:focus\:animate-hoverBounceLeft:focus {
+    -webkit-animation: hoverBounceLeft 1s infinite ease-in-out;
+            animation: hoverBounceLeft 1s infinite ease-in-out;
+  }
+
+  .sm\:focus\:animate-hoverBounceRight:focus {
+    -webkit-animation: hoverBounceRight 1s infinite ease-in-out;
+            animation: hoverBounceRight 1s infinite ease-in-out;
+  }
+
+  .sm\:focus\:animate-initialBounceUp:focus {
+    -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
+            animation: hoverBounceUp 1s 3 ease-in-out;
+  }
+
+  .sm\:focus\:animate-initialBounceDown:focus {
+    -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
+            animation: hoverBounceDown 1s 3 ease-in-out;
+  }
+
+  .sm\:focus\:animate-initialBounceLeft:focus {
+    -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
+            animation: hoverBounceLeft 1s 3 ease-in-out;
+  }
+
+  .sm\:focus\:animate-initialBounceRight:focus {
+    -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
+            animation: hoverBounceRight 1s 3 ease-in-out;
   }
 }
 
@@ -99642,9 +99996,44 @@ p {
             animation: bounce 1s infinite;
   }
 
-  .md\:animate-hoverBounce {
-    -webkit-animation: hoverBounce 1s infinite ease-in-out;
-            animation: hoverBounce 1s infinite ease-in-out;
+  .md\:animate-hoverBounceUp {
+    -webkit-animation: hoverBounceUp 1s infinite ease-in-out;
+            animation: hoverBounceUp 1s infinite ease-in-out;
+  }
+
+  .md\:animate-hoverBounceDown {
+    -webkit-animation: hoverBounceDown 1s infinite ease-in-out;
+            animation: hoverBounceDown 1s infinite ease-in-out;
+  }
+
+  .md\:animate-hoverBounceLeft {
+    -webkit-animation: hoverBounceLeft 1s infinite ease-in-out;
+            animation: hoverBounceLeft 1s infinite ease-in-out;
+  }
+
+  .md\:animate-hoverBounceRight {
+    -webkit-animation: hoverBounceRight 1s infinite ease-in-out;
+            animation: hoverBounceRight 1s infinite ease-in-out;
+  }
+
+  .md\:animate-initialBounceUp {
+    -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
+            animation: hoverBounceUp 1s 3 ease-in-out;
+  }
+
+  .md\:animate-initialBounceDown {
+    -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
+            animation: hoverBounceDown 1s 3 ease-in-out;
+  }
+
+  .md\:animate-initialBounceLeft {
+    -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
+            animation: hoverBounceLeft 1s 3 ease-in-out;
+  }
+
+  .md\:animate-initialBounceRight {
+    -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
+            animation: hoverBounceRight 1s 3 ease-in-out;
   }
 
   .md\:hover\:animate-none:hover {
@@ -99672,9 +100061,44 @@ p {
             animation: bounce 1s infinite;
   }
 
-  .md\:hover\:animate-hoverBounce:hover {
-    -webkit-animation: hoverBounce 1s infinite ease-in-out;
-            animation: hoverBounce 1s infinite ease-in-out;
+  .md\:hover\:animate-hoverBounceUp:hover {
+    -webkit-animation: hoverBounceUp 1s infinite ease-in-out;
+            animation: hoverBounceUp 1s infinite ease-in-out;
+  }
+
+  .md\:hover\:animate-hoverBounceDown:hover {
+    -webkit-animation: hoverBounceDown 1s infinite ease-in-out;
+            animation: hoverBounceDown 1s infinite ease-in-out;
+  }
+
+  .md\:hover\:animate-hoverBounceLeft:hover {
+    -webkit-animation: hoverBounceLeft 1s infinite ease-in-out;
+            animation: hoverBounceLeft 1s infinite ease-in-out;
+  }
+
+  .md\:hover\:animate-hoverBounceRight:hover {
+    -webkit-animation: hoverBounceRight 1s infinite ease-in-out;
+            animation: hoverBounceRight 1s infinite ease-in-out;
+  }
+
+  .md\:hover\:animate-initialBounceUp:hover {
+    -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
+            animation: hoverBounceUp 1s 3 ease-in-out;
+  }
+
+  .md\:hover\:animate-initialBounceDown:hover {
+    -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
+            animation: hoverBounceDown 1s 3 ease-in-out;
+  }
+
+  .md\:hover\:animate-initialBounceLeft:hover {
+    -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
+            animation: hoverBounceLeft 1s 3 ease-in-out;
+  }
+
+  .md\:hover\:animate-initialBounceRight:hover {
+    -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
+            animation: hoverBounceRight 1s 3 ease-in-out;
   }
 
   .md\:focus\:animate-none:focus {
@@ -99702,9 +100126,44 @@ p {
             animation: bounce 1s infinite;
   }
 
-  .md\:focus\:animate-hoverBounce:focus {
-    -webkit-animation: hoverBounce 1s infinite ease-in-out;
-            animation: hoverBounce 1s infinite ease-in-out;
+  .md\:focus\:animate-hoverBounceUp:focus {
+    -webkit-animation: hoverBounceUp 1s infinite ease-in-out;
+            animation: hoverBounceUp 1s infinite ease-in-out;
+  }
+
+  .md\:focus\:animate-hoverBounceDown:focus {
+    -webkit-animation: hoverBounceDown 1s infinite ease-in-out;
+            animation: hoverBounceDown 1s infinite ease-in-out;
+  }
+
+  .md\:focus\:animate-hoverBounceLeft:focus {
+    -webkit-animation: hoverBounceLeft 1s infinite ease-in-out;
+            animation: hoverBounceLeft 1s infinite ease-in-out;
+  }
+
+  .md\:focus\:animate-hoverBounceRight:focus {
+    -webkit-animation: hoverBounceRight 1s infinite ease-in-out;
+            animation: hoverBounceRight 1s infinite ease-in-out;
+  }
+
+  .md\:focus\:animate-initialBounceUp:focus {
+    -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
+            animation: hoverBounceUp 1s 3 ease-in-out;
+  }
+
+  .md\:focus\:animate-initialBounceDown:focus {
+    -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
+            animation: hoverBounceDown 1s 3 ease-in-out;
+  }
+
+  .md\:focus\:animate-initialBounceLeft:focus {
+    -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
+            animation: hoverBounceLeft 1s 3 ease-in-out;
+  }
+
+  .md\:focus\:animate-initialBounceRight:focus {
+    -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
+            animation: hoverBounceRight 1s 3 ease-in-out;
   }
 }
 
@@ -132605,9 +133064,44 @@ p {
             animation: bounce 1s infinite;
   }
 
-  .lg\:animate-hoverBounce {
-    -webkit-animation: hoverBounce 1s infinite ease-in-out;
-            animation: hoverBounce 1s infinite ease-in-out;
+  .lg\:animate-hoverBounceUp {
+    -webkit-animation: hoverBounceUp 1s infinite ease-in-out;
+            animation: hoverBounceUp 1s infinite ease-in-out;
+  }
+
+  .lg\:animate-hoverBounceDown {
+    -webkit-animation: hoverBounceDown 1s infinite ease-in-out;
+            animation: hoverBounceDown 1s infinite ease-in-out;
+  }
+
+  .lg\:animate-hoverBounceLeft {
+    -webkit-animation: hoverBounceLeft 1s infinite ease-in-out;
+            animation: hoverBounceLeft 1s infinite ease-in-out;
+  }
+
+  .lg\:animate-hoverBounceRight {
+    -webkit-animation: hoverBounceRight 1s infinite ease-in-out;
+            animation: hoverBounceRight 1s infinite ease-in-out;
+  }
+
+  .lg\:animate-initialBounceUp {
+    -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
+            animation: hoverBounceUp 1s 3 ease-in-out;
+  }
+
+  .lg\:animate-initialBounceDown {
+    -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
+            animation: hoverBounceDown 1s 3 ease-in-out;
+  }
+
+  .lg\:animate-initialBounceLeft {
+    -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
+            animation: hoverBounceLeft 1s 3 ease-in-out;
+  }
+
+  .lg\:animate-initialBounceRight {
+    -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
+            animation: hoverBounceRight 1s 3 ease-in-out;
   }
 
   .lg\:hover\:animate-none:hover {
@@ -132635,9 +133129,44 @@ p {
             animation: bounce 1s infinite;
   }
 
-  .lg\:hover\:animate-hoverBounce:hover {
-    -webkit-animation: hoverBounce 1s infinite ease-in-out;
-            animation: hoverBounce 1s infinite ease-in-out;
+  .lg\:hover\:animate-hoverBounceUp:hover {
+    -webkit-animation: hoverBounceUp 1s infinite ease-in-out;
+            animation: hoverBounceUp 1s infinite ease-in-out;
+  }
+
+  .lg\:hover\:animate-hoverBounceDown:hover {
+    -webkit-animation: hoverBounceDown 1s infinite ease-in-out;
+            animation: hoverBounceDown 1s infinite ease-in-out;
+  }
+
+  .lg\:hover\:animate-hoverBounceLeft:hover {
+    -webkit-animation: hoverBounceLeft 1s infinite ease-in-out;
+            animation: hoverBounceLeft 1s infinite ease-in-out;
+  }
+
+  .lg\:hover\:animate-hoverBounceRight:hover {
+    -webkit-animation: hoverBounceRight 1s infinite ease-in-out;
+            animation: hoverBounceRight 1s infinite ease-in-out;
+  }
+
+  .lg\:hover\:animate-initialBounceUp:hover {
+    -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
+            animation: hoverBounceUp 1s 3 ease-in-out;
+  }
+
+  .lg\:hover\:animate-initialBounceDown:hover {
+    -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
+            animation: hoverBounceDown 1s 3 ease-in-out;
+  }
+
+  .lg\:hover\:animate-initialBounceLeft:hover {
+    -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
+            animation: hoverBounceLeft 1s 3 ease-in-out;
+  }
+
+  .lg\:hover\:animate-initialBounceRight:hover {
+    -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
+            animation: hoverBounceRight 1s 3 ease-in-out;
   }
 
   .lg\:focus\:animate-none:focus {
@@ -132665,9 +133194,44 @@ p {
             animation: bounce 1s infinite;
   }
 
-  .lg\:focus\:animate-hoverBounce:focus {
-    -webkit-animation: hoverBounce 1s infinite ease-in-out;
-            animation: hoverBounce 1s infinite ease-in-out;
+  .lg\:focus\:animate-hoverBounceUp:focus {
+    -webkit-animation: hoverBounceUp 1s infinite ease-in-out;
+            animation: hoverBounceUp 1s infinite ease-in-out;
+  }
+
+  .lg\:focus\:animate-hoverBounceDown:focus {
+    -webkit-animation: hoverBounceDown 1s infinite ease-in-out;
+            animation: hoverBounceDown 1s infinite ease-in-out;
+  }
+
+  .lg\:focus\:animate-hoverBounceLeft:focus {
+    -webkit-animation: hoverBounceLeft 1s infinite ease-in-out;
+            animation: hoverBounceLeft 1s infinite ease-in-out;
+  }
+
+  .lg\:focus\:animate-hoverBounceRight:focus {
+    -webkit-animation: hoverBounceRight 1s infinite ease-in-out;
+            animation: hoverBounceRight 1s infinite ease-in-out;
+  }
+
+  .lg\:focus\:animate-initialBounceUp:focus {
+    -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
+            animation: hoverBounceUp 1s 3 ease-in-out;
+  }
+
+  .lg\:focus\:animate-initialBounceDown:focus {
+    -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
+            animation: hoverBounceDown 1s 3 ease-in-out;
+  }
+
+  .lg\:focus\:animate-initialBounceLeft:focus {
+    -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
+            animation: hoverBounceLeft 1s 3 ease-in-out;
+  }
+
+  .lg\:focus\:animate-initialBounceRight:focus {
+    -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
+            animation: hoverBounceRight 1s 3 ease-in-out;
   }
 }
 
@@ -165568,9 +166132,44 @@ p {
             animation: bounce 1s infinite;
   }
 
-  .xl\:animate-hoverBounce {
-    -webkit-animation: hoverBounce 1s infinite ease-in-out;
-            animation: hoverBounce 1s infinite ease-in-out;
+  .xl\:animate-hoverBounceUp {
+    -webkit-animation: hoverBounceUp 1s infinite ease-in-out;
+            animation: hoverBounceUp 1s infinite ease-in-out;
+  }
+
+  .xl\:animate-hoverBounceDown {
+    -webkit-animation: hoverBounceDown 1s infinite ease-in-out;
+            animation: hoverBounceDown 1s infinite ease-in-out;
+  }
+
+  .xl\:animate-hoverBounceLeft {
+    -webkit-animation: hoverBounceLeft 1s infinite ease-in-out;
+            animation: hoverBounceLeft 1s infinite ease-in-out;
+  }
+
+  .xl\:animate-hoverBounceRight {
+    -webkit-animation: hoverBounceRight 1s infinite ease-in-out;
+            animation: hoverBounceRight 1s infinite ease-in-out;
+  }
+
+  .xl\:animate-initialBounceUp {
+    -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
+            animation: hoverBounceUp 1s 3 ease-in-out;
+  }
+
+  .xl\:animate-initialBounceDown {
+    -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
+            animation: hoverBounceDown 1s 3 ease-in-out;
+  }
+
+  .xl\:animate-initialBounceLeft {
+    -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
+            animation: hoverBounceLeft 1s 3 ease-in-out;
+  }
+
+  .xl\:animate-initialBounceRight {
+    -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
+            animation: hoverBounceRight 1s 3 ease-in-out;
   }
 
   .xl\:hover\:animate-none:hover {
@@ -165598,9 +166197,44 @@ p {
             animation: bounce 1s infinite;
   }
 
-  .xl\:hover\:animate-hoverBounce:hover {
-    -webkit-animation: hoverBounce 1s infinite ease-in-out;
-            animation: hoverBounce 1s infinite ease-in-out;
+  .xl\:hover\:animate-hoverBounceUp:hover {
+    -webkit-animation: hoverBounceUp 1s infinite ease-in-out;
+            animation: hoverBounceUp 1s infinite ease-in-out;
+  }
+
+  .xl\:hover\:animate-hoverBounceDown:hover {
+    -webkit-animation: hoverBounceDown 1s infinite ease-in-out;
+            animation: hoverBounceDown 1s infinite ease-in-out;
+  }
+
+  .xl\:hover\:animate-hoverBounceLeft:hover {
+    -webkit-animation: hoverBounceLeft 1s infinite ease-in-out;
+            animation: hoverBounceLeft 1s infinite ease-in-out;
+  }
+
+  .xl\:hover\:animate-hoverBounceRight:hover {
+    -webkit-animation: hoverBounceRight 1s infinite ease-in-out;
+            animation: hoverBounceRight 1s infinite ease-in-out;
+  }
+
+  .xl\:hover\:animate-initialBounceUp:hover {
+    -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
+            animation: hoverBounceUp 1s 3 ease-in-out;
+  }
+
+  .xl\:hover\:animate-initialBounceDown:hover {
+    -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
+            animation: hoverBounceDown 1s 3 ease-in-out;
+  }
+
+  .xl\:hover\:animate-initialBounceLeft:hover {
+    -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
+            animation: hoverBounceLeft 1s 3 ease-in-out;
+  }
+
+  .xl\:hover\:animate-initialBounceRight:hover {
+    -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
+            animation: hoverBounceRight 1s 3 ease-in-out;
   }
 
   .xl\:focus\:animate-none:focus {
@@ -165628,9 +166262,44 @@ p {
             animation: bounce 1s infinite;
   }
 
-  .xl\:focus\:animate-hoverBounce:focus {
-    -webkit-animation: hoverBounce 1s infinite ease-in-out;
-            animation: hoverBounce 1s infinite ease-in-out;
+  .xl\:focus\:animate-hoverBounceUp:focus {
+    -webkit-animation: hoverBounceUp 1s infinite ease-in-out;
+            animation: hoverBounceUp 1s infinite ease-in-out;
+  }
+
+  .xl\:focus\:animate-hoverBounceDown:focus {
+    -webkit-animation: hoverBounceDown 1s infinite ease-in-out;
+            animation: hoverBounceDown 1s infinite ease-in-out;
+  }
+
+  .xl\:focus\:animate-hoverBounceLeft:focus {
+    -webkit-animation: hoverBounceLeft 1s infinite ease-in-out;
+            animation: hoverBounceLeft 1s infinite ease-in-out;
+  }
+
+  .xl\:focus\:animate-hoverBounceRight:focus {
+    -webkit-animation: hoverBounceRight 1s infinite ease-in-out;
+            animation: hoverBounceRight 1s infinite ease-in-out;
+  }
+
+  .xl\:focus\:animate-initialBounceUp:focus {
+    -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
+            animation: hoverBounceUp 1s 3 ease-in-out;
+  }
+
+  .xl\:focus\:animate-initialBounceDown:focus {
+    -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
+            animation: hoverBounceDown 1s 3 ease-in-out;
+  }
+
+  .xl\:focus\:animate-initialBounceLeft:focus {
+    -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
+            animation: hoverBounceLeft 1s 3 ease-in-out;
+  }
+
+  .xl\:focus\:animate-initialBounceRight:focus {
+    -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
+            animation: hoverBounceRight 1s 3 ease-in-out;
   }
 }
 
@@ -198531,9 +199200,44 @@ p {
             animation: bounce 1s infinite;
   }
 
-  .\32xl\:animate-hoverBounce {
-    -webkit-animation: hoverBounce 1s infinite ease-in-out;
-            animation: hoverBounce 1s infinite ease-in-out;
+  .\32xl\:animate-hoverBounceUp {
+    -webkit-animation: hoverBounceUp 1s infinite ease-in-out;
+            animation: hoverBounceUp 1s infinite ease-in-out;
+  }
+
+  .\32xl\:animate-hoverBounceDown {
+    -webkit-animation: hoverBounceDown 1s infinite ease-in-out;
+            animation: hoverBounceDown 1s infinite ease-in-out;
+  }
+
+  .\32xl\:animate-hoverBounceLeft {
+    -webkit-animation: hoverBounceLeft 1s infinite ease-in-out;
+            animation: hoverBounceLeft 1s infinite ease-in-out;
+  }
+
+  .\32xl\:animate-hoverBounceRight {
+    -webkit-animation: hoverBounceRight 1s infinite ease-in-out;
+            animation: hoverBounceRight 1s infinite ease-in-out;
+  }
+
+  .\32xl\:animate-initialBounceUp {
+    -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
+            animation: hoverBounceUp 1s 3 ease-in-out;
+  }
+
+  .\32xl\:animate-initialBounceDown {
+    -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
+            animation: hoverBounceDown 1s 3 ease-in-out;
+  }
+
+  .\32xl\:animate-initialBounceLeft {
+    -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
+            animation: hoverBounceLeft 1s 3 ease-in-out;
+  }
+
+  .\32xl\:animate-initialBounceRight {
+    -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
+            animation: hoverBounceRight 1s 3 ease-in-out;
   }
 
   .\32xl\:hover\:animate-none:hover {
@@ -198561,9 +199265,44 @@ p {
             animation: bounce 1s infinite;
   }
 
-  .\32xl\:hover\:animate-hoverBounce:hover {
-    -webkit-animation: hoverBounce 1s infinite ease-in-out;
-            animation: hoverBounce 1s infinite ease-in-out;
+  .\32xl\:hover\:animate-hoverBounceUp:hover {
+    -webkit-animation: hoverBounceUp 1s infinite ease-in-out;
+            animation: hoverBounceUp 1s infinite ease-in-out;
+  }
+
+  .\32xl\:hover\:animate-hoverBounceDown:hover {
+    -webkit-animation: hoverBounceDown 1s infinite ease-in-out;
+            animation: hoverBounceDown 1s infinite ease-in-out;
+  }
+
+  .\32xl\:hover\:animate-hoverBounceLeft:hover {
+    -webkit-animation: hoverBounceLeft 1s infinite ease-in-out;
+            animation: hoverBounceLeft 1s infinite ease-in-out;
+  }
+
+  .\32xl\:hover\:animate-hoverBounceRight:hover {
+    -webkit-animation: hoverBounceRight 1s infinite ease-in-out;
+            animation: hoverBounceRight 1s infinite ease-in-out;
+  }
+
+  .\32xl\:hover\:animate-initialBounceUp:hover {
+    -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
+            animation: hoverBounceUp 1s 3 ease-in-out;
+  }
+
+  .\32xl\:hover\:animate-initialBounceDown:hover {
+    -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
+            animation: hoverBounceDown 1s 3 ease-in-out;
+  }
+
+  .\32xl\:hover\:animate-initialBounceLeft:hover {
+    -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
+            animation: hoverBounceLeft 1s 3 ease-in-out;
+  }
+
+  .\32xl\:hover\:animate-initialBounceRight:hover {
+    -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
+            animation: hoverBounceRight 1s 3 ease-in-out;
   }
 
   .\32xl\:focus\:animate-none:focus {
@@ -198591,8 +199330,43 @@ p {
             animation: bounce 1s infinite;
   }
 
-  .\32xl\:focus\:animate-hoverBounce:focus {
-    -webkit-animation: hoverBounce 1s infinite ease-in-out;
-            animation: hoverBounce 1s infinite ease-in-out;
+  .\32xl\:focus\:animate-hoverBounceUp:focus {
+    -webkit-animation: hoverBounceUp 1s infinite ease-in-out;
+            animation: hoverBounceUp 1s infinite ease-in-out;
+  }
+
+  .\32xl\:focus\:animate-hoverBounceDown:focus {
+    -webkit-animation: hoverBounceDown 1s infinite ease-in-out;
+            animation: hoverBounceDown 1s infinite ease-in-out;
+  }
+
+  .\32xl\:focus\:animate-hoverBounceLeft:focus {
+    -webkit-animation: hoverBounceLeft 1s infinite ease-in-out;
+            animation: hoverBounceLeft 1s infinite ease-in-out;
+  }
+
+  .\32xl\:focus\:animate-hoverBounceRight:focus {
+    -webkit-animation: hoverBounceRight 1s infinite ease-in-out;
+            animation: hoverBounceRight 1s infinite ease-in-out;
+  }
+
+  .\32xl\:focus\:animate-initialBounceUp:focus {
+    -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
+            animation: hoverBounceUp 1s 3 ease-in-out;
+  }
+
+  .\32xl\:focus\:animate-initialBounceDown:focus {
+    -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
+            animation: hoverBounceDown 1s 3 ease-in-out;
+  }
+
+  .\32xl\:focus\:animate-initialBounceLeft:focus {
+    -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
+            animation: hoverBounceLeft 1s 3 ease-in-out;
+  }
+
+  .\32xl\:focus\:animate-initialBounceRight:focus {
+    -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
+            animation: hoverBounceRight 1s 3 ease-in-out;
   }
 }
