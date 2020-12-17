@@ -18,7 +18,11 @@ var Home = {
             this.designerAnimation = !this.designerAnimation;
         },
         setProjectFilter(filter) {
-            this.projectFilter = filter;
+            if ( this.projectFilter === filter ) {
+                this.projectFilter = 'all'
+            } else {
+                this.projectFilter = filter;
+            }
         },
         async fetchProject(url) {
            await fetch(url)
