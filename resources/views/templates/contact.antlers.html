@@ -26,7 +26,9 @@
             netlify
             netlify-honeypot="bot-field"
             class="flex flex-col w-2/3"
+            @submit.prevent="processForm"
         >
+        <input type="hidden" name="form-name" value="Contact">
             <div id="" class="flex flex-row mb-4">
                 <label id="" class="outline-yellow bg-green-100 pl-1 pr-5 md:pr-1 md:pl-5 text-right font-script space-x-5 font-extrabold text-pink-600 lowercase text-base align-middle w-18 md:w-24 h-7">name</label>
                 <input class="outline-yellow bg-indigo-900 text-sm text-green-100 px-2 flex-grow" type="text" name="name" />
@@ -42,7 +44,7 @@
 
             <div id="" class="flex flex-row mb-4">
                 <label id="" class="outline-yellow bg-green-100 pl-1 pr-5 md:pr-1 md:pl-5 text-right font-script space-x-5 font-extrabold text-pink-600 lowercase text-base align-middle w-18 md:w-24 h-7">phone</label>
-                <input class="outline-yellow bg-indigo-900 text-sm text-green-100 px-2 flex-grow" type="phone" name="phone" />
+                <input class="outline-yellow bg-indigo-900 text-sm text-green-100 px-2 flex-grow" type="phone" name="phone"/>
             </div>
 
             <div id="" class="flex flex-col mb-4">
