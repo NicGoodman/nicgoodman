@@ -28,5 +28,3 @@ function sendFormData() {
 	})
   
   }
-  
-  export default sendFormData
