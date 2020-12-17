@@ -1,36 +1,65 @@
 {{ get_content from="/contact" }}
 <section id="contact-content" class="flex flex-col items-center">
     <section
-    id="about-hero"
-    class="w-screen h-64 md:h-96 flex flex-row p-4 md:p-24 items-end border-b-2 md:border-b-4 border-yellow-400 bg-no-repeat bg-cover bg-opacity-50"
-    style="background-image: url('{{ hero_background.url }}'), linear-gradient(rgba(49, 46, 129, 1), rgba(91, 33, 182, 1)); background-blend-mode: overlay;"
->
-<h1
-id="page-title"
-class="font-extrabold font-script text-yellow-400 text-left md:text-center text-5xl md:text-6xl lg:text-7xl"
->
-        {{ title | lower }}
-    </h1>
-</section>
-<main id="contact-content-wrapper" class="w-full max-w-6xl flex flex-row mt-8">
-    <form id="contactForm" name="contact" method="POST" data-netlify="true">
-        <p>
-            <label>name: <input type="text" name="name"/></label>
-        </p>
-        <p>
-            <label>email: <input type="email" name="email"/></label>
-        </p>
-        <p>
-            <label>phone: <input type="phone" name="phone"/></label>
-        </p>
+        id="about-hero"
+        class="w-screen h-64 md:h-96 flex flex-row p-4 md:p-24 items-end border-b-2 md:border-b-4 border-yellow-400 bg-no-repeat bg-cover bg-opacity-50"
+        style="background-image: url('{{ hero_background.url }}'), linear-gradient(rgba(49, 46, 129, 1), rgba(91, 33, 182, 1)); background-blend-mode: overlay;"
+    >
+        <h1
+            id="page-title"
+            class="font-extrabold font-script text-yellow-400 text-left md:text-center text-5xl md:text-6xl lg:text-7xl"
+        >
+            {{ title | lower }}
+        </h1>
+    </section>
+    <main
+        id="contact-content-wrapper"
+        class="w-full max-w-6xl px-4 flex flex-col items-center mt-8"
+    >
+    <section id="" class="w-2/3 bard text-yellow-400 font-sans font-bold list-disc mb-4">
+        {{ contact_intro}}
+    </section>
+        <form
+            id="contactForm"
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            class="flex flex-col w-2/3"
+        >
+            <div id="" class="flex flex-row mb-4">
+                <label id="" class="outline-yellow bg-green-100 pl-1 pr-5 md:pr-1 md:pl-5 text-right font-script space-x-5 font-extrabold text-pink-600 lowercase text-base align-middle w-18 md:w-24 h-7">name</label>
+                <input class="outline-yellow bg-indigo-900 text-sm text-green-100 px-2 flex-grow" type="text" name="name" />
+            </div>
 
-        <p>
-            <label>Message: <textarea name="message"></textarea></label>
-        </p>
-        <p>
-            <button type="submit">Send</button>
-        </p>
-    </form>
-</main>
+            <div id="" class="flex flex-row mb-4">
+                <label id="" class="outline-yellow bg-green-100 pl-1 pr-5 md:pr-1 md:pl-5 text-right font-script space-x-5 font-extrabold text-pink-600 lowercase text-base align-middle w-18 md:w-24 h-7">email</label>
+                <input class="outline-yellow bg-indigo-900 text-sm text-green-100 px-2 flex-grow" type="email" name="email" />
+            </div>
+
+            <div id="" class="flex flex-row mb-4">
+                <label id="" class="outline-yellow bg-green-100 pl-1 pr-5 md:pr-1 md:pl-5 text-right font-script space-x-5 font-extrabold text-pink-600 lowercase text-base align-middle w-18 md:w-24 h-7">phone</label>
+                <input class="outline-yellow bg-indigo-900 text-sm text-green-100 px-2 flex-grow" type="phone" name="phone" />
+            </div>
+
+            <div id="" class="flex flex-col mb-4">
+                <label id="" class="outline-yellow bg-green-100 pl-1 pr-5 md:pr-1 md:pl-5 text-right font-script space-x-5 font-extrabold text-pink-600 lowercase text-base align-middle w-18 md:w-24 h-7">message</label>
+                <textarea rows="5" class="outline-yellow bg-indigo-900 text-sm text-green-100 p-2" name="message"></textarea>
+            </div>
+
+            <button
+                type="submit"
+                id="submit-button"
+                class="bg-green-100 pl-1 pr-5 md:pr-1 md:pl-5 text-right font-script space-x-5 font-extrabold text-pink-600 lowercase text-base align-middle w-18 md:w-24 h-7 outline-yellow shadow-offset-yellow"
+            >
+                Send
+            </button>
+        </form>
+        <div class="result post-sent">
+            <h3>Success!</h3>
+          </div>
+          <div class="result post-error">
+            <h3>Error...</h3>
+          </div>
+    </main>
 </section>
 {{ /get_content }}

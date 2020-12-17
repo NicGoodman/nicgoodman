@@ -126,3 +126,15 @@ p {
     /* Other browsers */
     overscroll-behavior: none !important;
 }
+
+.result {
+    display: none;
+  }
+  
+  .active {
+    display: block;
+  }
+  
+  .inactive {
+    display: none;
+  }

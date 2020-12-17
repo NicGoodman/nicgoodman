@@ -33767,6 +33767,18 @@ p {
       overscroll-behavior: none !important;
 }
 
+.result {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.inactive {
+  display: none;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
