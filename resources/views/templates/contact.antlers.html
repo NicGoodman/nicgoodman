@@ -16,7 +16,7 @@
         id="contact-content-wrapper"
         class="w-full max-w-6xl px-4 flex flex-col items-center mt-8"
     >
-    <section id="" class="w-2/3 bard text-yellow-400 font-sans font-bold list-disc mb-4">
+    <section id="" class="w-full md:w-2/3 bard text-yellow-400 font-sans font-bold list-disc mb-4">
         {{ contact_intro}}
     </section>
         <form
@@ -26,7 +26,7 @@
             data-netlify="true"
             netlify-honeypot="bot-field"
             enctype="application/x-www-form-urlencoded"
-            class="flex flex-col w-2/3"
+            class="flex flex-col w-full md:w-2/3"
             @submit.prevent="handleFormSubmit"
         >
         <input type="hidden" name="form-name" value="Contact">

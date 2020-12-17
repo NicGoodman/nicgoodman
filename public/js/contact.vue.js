@@ -37,9 +37,9 @@ var Contact = {
             .then(data => console.log(data))
             .catch(error => console.log(error))
             .then(document.getElementById("contactForm").innerHTML = `
-            <div>
-                Thank you! I received your submission.
-            </div>
+            <h3 class="text-pink-600 bg-green-100 font-script font-extrabold pr-10 pl-2 py-1 self-start mb-4 text-base md:text-xl lg:text-2xl">
+                Thank you, I received your email!
+            </h3>
             `)
         }
     }
