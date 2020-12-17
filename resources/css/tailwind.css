@@ -35,6 +35,10 @@ p {
     box-shadow: 12px 12px 0 1px #FBBF24;
 }
 .currentPage {
+
+}
+
+.router-link-exact-active {
     @apply font-extrabold;
     @apply text-pink-600;
     @apply font-script;

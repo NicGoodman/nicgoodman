@@ -12,14 +12,15 @@ const router = VueRouter.createRouter({
 const app = Vue.createApp({
     data() {
         return {
-            navLink: 1
+            
         };
+    },
+    watch: {
+       
     },
     computed: {},
     methods: {
-        selected(num) {
-            this.navLink = num;
-        }
+
     }
 });
 app.use(router);

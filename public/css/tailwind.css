@@ -33669,6 +33669,9 @@ p {
 }
 
 .currentPage {
+}
+
+.router-link-exact-active {
   font-weight: 800;
   --tw-text-opacity: 1;
   color: rgba(219, 39, 119, var(--tw-text-opacity));
