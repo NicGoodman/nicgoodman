@@ -6,8 +6,6 @@ var Contact = {
     },
     methods: {
         processForm() {
-            const handleSubmit = e => {
-                e.preventDefault();
                 let myForm = document.getElementById("contactForm");
                 let formData = new FormData(myForm);
                 fetch("/", {
@@ -19,7 +17,6 @@ var Contact = {
                 })
                     .then(() => console.log("Form successfully submitted"))
                     .catch(error => alert(error));
-            };
-        }
+            }
     }
 };
