@@ -2,10 +2,6 @@ var Contact = {
     template: "#contact-content",
     data() {
         return {
-			name: null,
-			email: null,
-			phone: null,
-			message: null,
 			formData: {
 			name: null,
 			email: null,
