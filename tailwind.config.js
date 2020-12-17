@@ -47,10 +47,10 @@ module.exports = {
               hoverBounceDown: 'hoverBounceDown 1s infinite ease-in-out',
               hoverBounceLeft: 'hoverBounceLeft 1s infinite ease-in-out',
               hoverBounceRight: 'hoverBounceRight 1s infinite ease-in-out',
-              initialBounceUp: 'hoverBounceUp 1s 3 ease-in-out',
-              initialBounceDown: 'hoverBounceDown 1s 3 ease-in-out',
-              initialBounceLeft: 'hoverBounceLeft 1s 3 ease-in-out',
-              initialBounceRight: 'hoverBounceRight 1s 3 ease-in-out'
+              initialBounceUp: 'hoverBounceUp 1s 2 ease-in-out',
+              initialBounceDown: 'hoverBounceDown 1s 2 ease-in-out',
+              initialBounceLeft: 'hoverBounceLeft 1s 2 ease-in-out',
+              initialBounceRight: 'hoverBounceRight 1s 2 ease-in-out'
             }
         },
         fontFamily: {

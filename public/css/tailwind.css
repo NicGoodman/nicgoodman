@@ -33754,23 +33754,23 @@ p {
 }
 
 .animate-initialBounceUp {
-  -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
-          animation: hoverBounceUp 1s 3 ease-in-out;
+  -webkit-animation: hoverBounceUp 1s 2 ease-in-out;
+          animation: hoverBounceUp 1s 2 ease-in-out;
 }
 
 .animate-initialBounceDown {
-  -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
-          animation: hoverBounceDown 1s 3 ease-in-out;
+  -webkit-animation: hoverBounceDown 1s 2 ease-in-out;
+          animation: hoverBounceDown 1s 2 ease-in-out;
 }
 
 .animate-initialBounceLeft {
-  -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
-          animation: hoverBounceLeft 1s 3 ease-in-out;
+  -webkit-animation: hoverBounceLeft 1s 2 ease-in-out;
+          animation: hoverBounceLeft 1s 2 ease-in-out;
 }
 
 .animate-initialBounceRight {
-  -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
-          animation: hoverBounceRight 1s 3 ease-in-out;
+  -webkit-animation: hoverBounceRight 1s 2 ease-in-out;
+          animation: hoverBounceRight 1s 2 ease-in-out;
 }
 
 .hover\:animate-none:hover {
@@ -33819,23 +33819,23 @@ p {
 }
 
 .hover\:animate-initialBounceUp:hover {
-  -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
-          animation: hoverBounceUp 1s 3 ease-in-out;
+  -webkit-animation: hoverBounceUp 1s 2 ease-in-out;
+          animation: hoverBounceUp 1s 2 ease-in-out;
 }
 
 .hover\:animate-initialBounceDown:hover {
-  -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
-          animation: hoverBounceDown 1s 3 ease-in-out;
+  -webkit-animation: hoverBounceDown 1s 2 ease-in-out;
+          animation: hoverBounceDown 1s 2 ease-in-out;
 }
 
 .hover\:animate-initialBounceLeft:hover {
-  -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
-          animation: hoverBounceLeft 1s 3 ease-in-out;
+  -webkit-animation: hoverBounceLeft 1s 2 ease-in-out;
+          animation: hoverBounceLeft 1s 2 ease-in-out;
 }
 
 .hover\:animate-initialBounceRight:hover {
-  -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
-          animation: hoverBounceRight 1s 3 ease-in-out;
+  -webkit-animation: hoverBounceRight 1s 2 ease-in-out;
+          animation: hoverBounceRight 1s 2 ease-in-out;
 }
 
 .focus\:animate-none:focus {
@@ -33884,23 +33884,23 @@ p {
 }
 
 .focus\:animate-initialBounceUp:focus {
-  -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
-          animation: hoverBounceUp 1s 3 ease-in-out;
+  -webkit-animation: hoverBounceUp 1s 2 ease-in-out;
+          animation: hoverBounceUp 1s 2 ease-in-out;
 }
 
 .focus\:animate-initialBounceDown:focus {
-  -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
-          animation: hoverBounceDown 1s 3 ease-in-out;
+  -webkit-animation: hoverBounceDown 1s 2 ease-in-out;
+          animation: hoverBounceDown 1s 2 ease-in-out;
 }
 
 .focus\:animate-initialBounceLeft:focus {
-  -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
-          animation: hoverBounceLeft 1s 3 ease-in-out;
+  -webkit-animation: hoverBounceLeft 1s 2 ease-in-out;
+          animation: hoverBounceLeft 1s 2 ease-in-out;
 }
 
 .focus\:animate-initialBounceRight:focus {
-  -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
-          animation: hoverBounceRight 1s 3 ease-in-out;
+  -webkit-animation: hoverBounceRight 1s 2 ease-in-out;
+          animation: hoverBounceRight 1s 2 ease-in-out;
 }
 
 .shadow-offset-yellow {
@@ -66949,23 +66949,23 @@ p {
   }
 
   .sm\:animate-initialBounceUp {
-    -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
-            animation: hoverBounceUp 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceUp 1s 2 ease-in-out;
+            animation: hoverBounceUp 1s 2 ease-in-out;
   }
 
   .sm\:animate-initialBounceDown {
-    -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
-            animation: hoverBounceDown 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceDown 1s 2 ease-in-out;
+            animation: hoverBounceDown 1s 2 ease-in-out;
   }
 
   .sm\:animate-initialBounceLeft {
-    -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
-            animation: hoverBounceLeft 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceLeft 1s 2 ease-in-out;
+            animation: hoverBounceLeft 1s 2 ease-in-out;
   }
 
   .sm\:animate-initialBounceRight {
-    -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
-            animation: hoverBounceRight 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceRight 1s 2 ease-in-out;
+            animation: hoverBounceRight 1s 2 ease-in-out;
   }
 
   .sm\:hover\:animate-none:hover {
@@ -67014,23 +67014,23 @@ p {
   }
 
   .sm\:hover\:animate-initialBounceUp:hover {
-    -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
-            animation: hoverBounceUp 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceUp 1s 2 ease-in-out;
+            animation: hoverBounceUp 1s 2 ease-in-out;
   }
 
   .sm\:hover\:animate-initialBounceDown:hover {
-    -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
-            animation: hoverBounceDown 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceDown 1s 2 ease-in-out;
+            animation: hoverBounceDown 1s 2 ease-in-out;
   }
 
   .sm\:hover\:animate-initialBounceLeft:hover {
-    -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
-            animation: hoverBounceLeft 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceLeft 1s 2 ease-in-out;
+            animation: hoverBounceLeft 1s 2 ease-in-out;
   }
 
   .sm\:hover\:animate-initialBounceRight:hover {
-    -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
-            animation: hoverBounceRight 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceRight 1s 2 ease-in-out;
+            animation: hoverBounceRight 1s 2 ease-in-out;
   }
 
   .sm\:focus\:animate-none:focus {
@@ -67079,23 +67079,23 @@ p {
   }
 
   .sm\:focus\:animate-initialBounceUp:focus {
-    -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
-            animation: hoverBounceUp 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceUp 1s 2 ease-in-out;
+            animation: hoverBounceUp 1s 2 ease-in-out;
   }
 
   .sm\:focus\:animate-initialBounceDown:focus {
-    -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
-            animation: hoverBounceDown 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceDown 1s 2 ease-in-out;
+            animation: hoverBounceDown 1s 2 ease-in-out;
   }
 
   .sm\:focus\:animate-initialBounceLeft:focus {
-    -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
-            animation: hoverBounceLeft 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceLeft 1s 2 ease-in-out;
+            animation: hoverBounceLeft 1s 2 ease-in-out;
   }
 
   .sm\:focus\:animate-initialBounceRight:focus {
-    -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
-            animation: hoverBounceRight 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceRight 1s 2 ease-in-out;
+            animation: hoverBounceRight 1s 2 ease-in-out;
   }
 }
 
@@ -100017,23 +100017,23 @@ p {
   }
 
   .md\:animate-initialBounceUp {
-    -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
-            animation: hoverBounceUp 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceUp 1s 2 ease-in-out;
+            animation: hoverBounceUp 1s 2 ease-in-out;
   }
 
   .md\:animate-initialBounceDown {
-    -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
-            animation: hoverBounceDown 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceDown 1s 2 ease-in-out;
+            animation: hoverBounceDown 1s 2 ease-in-out;
   }
 
   .md\:animate-initialBounceLeft {
-    -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
-            animation: hoverBounceLeft 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceLeft 1s 2 ease-in-out;
+            animation: hoverBounceLeft 1s 2 ease-in-out;
   }
 
   .md\:animate-initialBounceRight {
-    -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
-            animation: hoverBounceRight 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceRight 1s 2 ease-in-out;
+            animation: hoverBounceRight 1s 2 ease-in-out;
   }
 
   .md\:hover\:animate-none:hover {
@@ -100082,23 +100082,23 @@ p {
   }
 
   .md\:hover\:animate-initialBounceUp:hover {
-    -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
-            animation: hoverBounceUp 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceUp 1s 2 ease-in-out;
+            animation: hoverBounceUp 1s 2 ease-in-out;
   }
 
   .md\:hover\:animate-initialBounceDown:hover {
-    -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
-            animation: hoverBounceDown 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceDown 1s 2 ease-in-out;
+            animation: hoverBounceDown 1s 2 ease-in-out;
   }
 
   .md\:hover\:animate-initialBounceLeft:hover {
-    -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
-            animation: hoverBounceLeft 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceLeft 1s 2 ease-in-out;
+            animation: hoverBounceLeft 1s 2 ease-in-out;
   }
 
   .md\:hover\:animate-initialBounceRight:hover {
-    -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
-            animation: hoverBounceRight 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceRight 1s 2 ease-in-out;
+            animation: hoverBounceRight 1s 2 ease-in-out;
   }
 
   .md\:focus\:animate-none:focus {
@@ -100147,23 +100147,23 @@ p {
   }
 
   .md\:focus\:animate-initialBounceUp:focus {
-    -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
-            animation: hoverBounceUp 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceUp 1s 2 ease-in-out;
+            animation: hoverBounceUp 1s 2 ease-in-out;
   }
 
   .md\:focus\:animate-initialBounceDown:focus {
-    -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
-            animation: hoverBounceDown 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceDown 1s 2 ease-in-out;
+            animation: hoverBounceDown 1s 2 ease-in-out;
   }
 
   .md\:focus\:animate-initialBounceLeft:focus {
-    -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
-            animation: hoverBounceLeft 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceLeft 1s 2 ease-in-out;
+            animation: hoverBounceLeft 1s 2 ease-in-out;
   }
 
   .md\:focus\:animate-initialBounceRight:focus {
-    -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
-            animation: hoverBounceRight 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceRight 1s 2 ease-in-out;
+            animation: hoverBounceRight 1s 2 ease-in-out;
   }
 }
 
@@ -133085,23 +133085,23 @@ p {
   }
 
   .lg\:animate-initialBounceUp {
-    -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
-            animation: hoverBounceUp 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceUp 1s 2 ease-in-out;
+            animation: hoverBounceUp 1s 2 ease-in-out;
   }
 
   .lg\:animate-initialBounceDown {
-    -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
-            animation: hoverBounceDown 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceDown 1s 2 ease-in-out;
+            animation: hoverBounceDown 1s 2 ease-in-out;
   }
 
   .lg\:animate-initialBounceLeft {
-    -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
-            animation: hoverBounceLeft 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceLeft 1s 2 ease-in-out;
+            animation: hoverBounceLeft 1s 2 ease-in-out;
   }
 
   .lg\:animate-initialBounceRight {
-    -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
-            animation: hoverBounceRight 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceRight 1s 2 ease-in-out;
+            animation: hoverBounceRight 1s 2 ease-in-out;
   }
 
   .lg\:hover\:animate-none:hover {
@@ -133150,23 +133150,23 @@ p {
   }
 
   .lg\:hover\:animate-initialBounceUp:hover {
-    -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
-            animation: hoverBounceUp 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceUp 1s 2 ease-in-out;
+            animation: hoverBounceUp 1s 2 ease-in-out;
   }
 
   .lg\:hover\:animate-initialBounceDown:hover {
-    -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
-            animation: hoverBounceDown 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceDown 1s 2 ease-in-out;
+            animation: hoverBounceDown 1s 2 ease-in-out;
   }
 
   .lg\:hover\:animate-initialBounceLeft:hover {
-    -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
-            animation: hoverBounceLeft 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceLeft 1s 2 ease-in-out;
+            animation: hoverBounceLeft 1s 2 ease-in-out;
   }
 
   .lg\:hover\:animate-initialBounceRight:hover {
-    -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
-            animation: hoverBounceRight 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceRight 1s 2 ease-in-out;
+            animation: hoverBounceRight 1s 2 ease-in-out;
   }
 
   .lg\:focus\:animate-none:focus {
@@ -133215,23 +133215,23 @@ p {
   }
 
   .lg\:focus\:animate-initialBounceUp:focus {
-    -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
-            animation: hoverBounceUp 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceUp 1s 2 ease-in-out;
+            animation: hoverBounceUp 1s 2 ease-in-out;
   }
 
   .lg\:focus\:animate-initialBounceDown:focus {
-    -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
-            animation: hoverBounceDown 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceDown 1s 2 ease-in-out;
+            animation: hoverBounceDown 1s 2 ease-in-out;
   }
 
   .lg\:focus\:animate-initialBounceLeft:focus {
-    -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
-            animation: hoverBounceLeft 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceLeft 1s 2 ease-in-out;
+            animation: hoverBounceLeft 1s 2 ease-in-out;
   }
 
   .lg\:focus\:animate-initialBounceRight:focus {
-    -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
-            animation: hoverBounceRight 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceRight 1s 2 ease-in-out;
+            animation: hoverBounceRight 1s 2 ease-in-out;
   }
 }
 
@@ -166153,23 +166153,23 @@ p {
   }
 
   .xl\:animate-initialBounceUp {
-    -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
-            animation: hoverBounceUp 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceUp 1s 2 ease-in-out;
+            animation: hoverBounceUp 1s 2 ease-in-out;
   }
 
   .xl\:animate-initialBounceDown {
-    -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
-            animation: hoverBounceDown 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceDown 1s 2 ease-in-out;
+            animation: hoverBounceDown 1s 2 ease-in-out;
   }
 
   .xl\:animate-initialBounceLeft {
-    -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
-            animation: hoverBounceLeft 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceLeft 1s 2 ease-in-out;
+            animation: hoverBounceLeft 1s 2 ease-in-out;
   }
 
   .xl\:animate-initialBounceRight {
-    -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
-            animation: hoverBounceRight 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceRight 1s 2 ease-in-out;
+            animation: hoverBounceRight 1s 2 ease-in-out;
   }
 
   .xl\:hover\:animate-none:hover {
@@ -166218,23 +166218,23 @@ p {
   }
 
   .xl\:hover\:animate-initialBounceUp:hover {
-    -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
-            animation: hoverBounceUp 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceUp 1s 2 ease-in-out;
+            animation: hoverBounceUp 1s 2 ease-in-out;
   }
 
   .xl\:hover\:animate-initialBounceDown:hover {
-    -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
-            animation: hoverBounceDown 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceDown 1s 2 ease-in-out;
+            animation: hoverBounceDown 1s 2 ease-in-out;
   }
 
   .xl\:hover\:animate-initialBounceLeft:hover {
-    -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
-            animation: hoverBounceLeft 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceLeft 1s 2 ease-in-out;
+            animation: hoverBounceLeft 1s 2 ease-in-out;
   }
 
   .xl\:hover\:animate-initialBounceRight:hover {
-    -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
-            animation: hoverBounceRight 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceRight 1s 2 ease-in-out;
+            animation: hoverBounceRight 1s 2 ease-in-out;
   }
 
   .xl\:focus\:animate-none:focus {
@@ -166283,23 +166283,23 @@ p {
   }
 
   .xl\:focus\:animate-initialBounceUp:focus {
-    -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
-            animation: hoverBounceUp 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceUp 1s 2 ease-in-out;
+            animation: hoverBounceUp 1s 2 ease-in-out;
   }
 
   .xl\:focus\:animate-initialBounceDown:focus {
-    -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
-            animation: hoverBounceDown 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceDown 1s 2 ease-in-out;
+            animation: hoverBounceDown 1s 2 ease-in-out;
   }
 
   .xl\:focus\:animate-initialBounceLeft:focus {
-    -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
-            animation: hoverBounceLeft 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceLeft 1s 2 ease-in-out;
+            animation: hoverBounceLeft 1s 2 ease-in-out;
   }
 
   .xl\:focus\:animate-initialBounceRight:focus {
-    -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
-            animation: hoverBounceRight 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceRight 1s 2 ease-in-out;
+            animation: hoverBounceRight 1s 2 ease-in-out;
   }
 }
 
@@ -199221,23 +199221,23 @@ p {
   }
 
   .\32xl\:animate-initialBounceUp {
-    -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
-            animation: hoverBounceUp 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceUp 1s 2 ease-in-out;
+            animation: hoverBounceUp 1s 2 ease-in-out;
   }
 
   .\32xl\:animate-initialBounceDown {
-    -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
-            animation: hoverBounceDown 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceDown 1s 2 ease-in-out;
+            animation: hoverBounceDown 1s 2 ease-in-out;
   }
 
   .\32xl\:animate-initialBounceLeft {
-    -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
-            animation: hoverBounceLeft 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceLeft 1s 2 ease-in-out;
+            animation: hoverBounceLeft 1s 2 ease-in-out;
   }
 
   .\32xl\:animate-initialBounceRight {
-    -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
-            animation: hoverBounceRight 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceRight 1s 2 ease-in-out;
+            animation: hoverBounceRight 1s 2 ease-in-out;
   }
 
   .\32xl\:hover\:animate-none:hover {
@@ -199286,23 +199286,23 @@ p {
   }
 
   .\32xl\:hover\:animate-initialBounceUp:hover {
-    -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
-            animation: hoverBounceUp 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceUp 1s 2 ease-in-out;
+            animation: hoverBounceUp 1s 2 ease-in-out;
   }
 
   .\32xl\:hover\:animate-initialBounceDown:hover {
-    -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
-            animation: hoverBounceDown 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceDown 1s 2 ease-in-out;
+            animation: hoverBounceDown 1s 2 ease-in-out;
   }
 
   .\32xl\:hover\:animate-initialBounceLeft:hover {
-    -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
-            animation: hoverBounceLeft 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceLeft 1s 2 ease-in-out;
+            animation: hoverBounceLeft 1s 2 ease-in-out;
   }
 
   .\32xl\:hover\:animate-initialBounceRight:hover {
-    -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
-            animation: hoverBounceRight 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceRight 1s 2 ease-in-out;
+            animation: hoverBounceRight 1s 2 ease-in-out;
   }
 
   .\32xl\:focus\:animate-none:focus {
@@ -199351,22 +199351,22 @@ p {
   }
 
   .\32xl\:focus\:animate-initialBounceUp:focus {
-    -webkit-animation: hoverBounceUp 1s 3 ease-in-out;
-            animation: hoverBounceUp 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceUp 1s 2 ease-in-out;
+            animation: hoverBounceUp 1s 2 ease-in-out;
   }
 
   .\32xl\:focus\:animate-initialBounceDown:focus {
-    -webkit-animation: hoverBounceDown 1s 3 ease-in-out;
-            animation: hoverBounceDown 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceDown 1s 2 ease-in-out;
+            animation: hoverBounceDown 1s 2 ease-in-out;
   }
 
   .\32xl\:focus\:animate-initialBounceLeft:focus {
-    -webkit-animation: hoverBounceLeft 1s 3 ease-in-out;
-            animation: hoverBounceLeft 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceLeft 1s 2 ease-in-out;
+            animation: hoverBounceLeft 1s 2 ease-in-out;
   }
 
   .\32xl\:focus\:animate-initialBounceRight:focus {
-    -webkit-animation: hoverBounceRight 1s 3 ease-in-out;
-            animation: hoverBounceRight 1s 3 ease-in-out;
+    -webkit-animation: hoverBounceRight 1s 2 ease-in-out;
+            animation: hoverBounceRight 1s 2 ease-in-out;
   }
 }
