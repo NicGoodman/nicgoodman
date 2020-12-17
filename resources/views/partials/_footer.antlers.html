@@ -1,18 +1,42 @@
-<footer id="" class="p-5 md:p-10 w-screen flex flex-row border-t-2 md:border-t-4 border-yellow-400 items-center mt-16">
-<router-link to="/contact">
-    <div id="avatars-mobile" class="relative w-20 h-20 md:w-24 md:h-24 mr-5 md:mr-8">
-        {{ get_content from="/about" }}
-        <img
-            src="{{ avatar.url }}"
-            class="w-20 h-20 md:w-24 md:h-24 outline-yellow shadow-offset-yellow cursor-pointer absolute top-0 transition-opacity"
-            alt=""
-        />
-        {{ /get_content }}
-    </div>
-</router-link>
-<section id="contact-info" class="">
-    <h3 class="font-sans font-bold text-green-300">nic goodman</h3>
-    <h4 class="font-sans font-bold text-green-100 text-base">704.682.4091</h4>
-    <h4 class="font-sans font-bold text-green-100">nic.goodman@hey.com</h4>
-</section>
+<footer
+    id=""
+    class="p-5 md:p-10 w-screen flex flex-row border-t-2 md:border-t-4 border-yellow-400 items-center mt-16"
+>
+    <router-link to="/contact">
+        <div
+            id="avatars-mobile"
+            class="relative w-20 h-20 md:w-24 md:h-24 mr-3 md:mr-6"
+        >
+            {{ get_content from="/about" }}
+            <img
+                src="{{ avatar.url }}"
+                class="w-20 h-20 md:w-24 md:h-24 outline-yellow shadow-offset-yellow cursor-pointer absolute top-0 transition-all"
+                alt=""
+            />
+            {{ /get_content }}
+        </div>
+    </router-link>
+    <section id="contact-info" class="flex flex-col pt-3">
+        <router-link to="/contact">
+        <h3 class="transition-colors font-sans font-bold text-green-300 hover:text-yellow-400 pl-2 mb-0 md:mb-2 inline-block h-7 text-lg md:text-2xl">
+            nic goodman
+        </h3>
+    </router-link>
+
+        <a href="tel:+17046824091">
+            <h4
+                class="transition-colors font-sans font-bold text-green-100 text-sm md:text-base hover:bg-green-100 hover:font-script hover:font-extrabold hover:text-pink-600 pl-2 pr-8 h-7 inline-block leading-7"
+            >
+                704.682.4091
+            </h4></a
+        >
+
+        <a href="mailto:nic.goodman@hey.com">
+            <h4
+                class="transition-colors font-sans font-bold text-green-100 pl-2 hover:bg-green-100 hover:font-script hover:font-extrabold hover:text-pink-600 text-base hover:text-sm md:text-lg md:hover:text-base pr-8 h-7 inline-block leading-4 md:leading-6 pt-1 md:pt-0"
+            >
+                nic.goodman@hey.com
+            </h4></a
+        >
+    </section>
 </footer>
