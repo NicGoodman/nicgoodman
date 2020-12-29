@@ -84,14 +84,14 @@
         {{ collection:projects }}
         <article
             id="{{ slug }}"
-            class="{{ project_type }}{{ slug }}{{ /project_type }} transition transform-gpu relative w-32 h-32 md:w-48 md:h-48 lg:w-56 lg:h-56 bg-cover bg-center outline-yellow shadow-offset-yellow cursor-pointer z-30 image-gradient-{{ slug }}"
+            class="{{ project_type }}{{ slug }}{{ /project_type }} transition transform-gpu relative w-48 h-48 lg:w-56 lg:h-56 bg-cover bg-center outline-yellow shadow-offset-yellow cursor-pointer z-30 image-gradient-{{ slug }}"
             @click="fetchProject('{{ url }}')"
             :class="filterProjects('{{ project_type }}{{ slug }}{{ /project_type }}')"
         >
             <img
                 src="{{ thumbnail.url }}"
                 alt=""
-                class="w-32 h-32 md:w-48 md:h-48 lg:w-56 lg:h-56 object-cover opacity-0 hover:opacity-100 transition-all z-40"
+                class="w-48 h-48 lg:w-56 lg:h-56 object-cover opacity-0 hover:opacity-100 transition-all z-40"
             />
             <p
                 id=""
