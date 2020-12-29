@@ -21,6 +21,14 @@ services:
   - ux-ui-web-design
   - frontend-web-development
 updated_by: b8cab3f6-baa5-4311-822b-8ad388e79916
-updated_at: 1609217298
+updated_at: 1609220255
+thumbnail: projects/wizards/wizards-mocks-01.jpg
+gallery_images:
+  - projects/wizards/wizards_stylePreview.jpg
+  - projects/wizards/wizards-desktop-inventory.gif
+  - projects/wizards/wizards-mocks-02.jpg
+  - projects/wizards/wizards-mocks-03.jpg
+  - projects/wizards/wizards_shippingCard_2020_RD2-01.jpg
+  - projects/wizards/wizards_shippingCard_2020_RD2-02.jpg
 id: 5a2b589c-c71a-46ce-8bdd-a7610c341889
 ---
