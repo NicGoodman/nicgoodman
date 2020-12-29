@@ -3,10 +3,10 @@
 </h2>
 <section
     id="project-categories"
-    class="text-base text-pink-600 bg-green-100 font-script font-extrabold pr-10 pl-2 py-1 mb-4 mr-4 inline-block"
 >
     {{ services }}
-{{ title | lower }}
+    <span class="text-base text-pink-600 bg-green-100 font-script font-extrabold pr-10 pl-2 py-1 mb-4 mr-4 inline-block">{{ title | lower }}</span>
+
     {{ /services }}
 </section>
 <section
@@ -17,6 +17,6 @@
 </section>
 <section id="project-gallery" class="image-gallery mt-8">
     {{ gallery_images }}
-    <img src="{{ url }}" class="w-full h-auto" alt="" />
+    <img src="{{ url }}" class="w-full h-auto pb-4" alt="" />
     {{ /gallery_images}}
 </section>
