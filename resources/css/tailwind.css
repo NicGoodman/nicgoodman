@@ -17,7 +17,7 @@ h4 {
 
 p {
     @apply text-base;
-    @apply mb-2;
+    @apply mb-4;
 }
 
 

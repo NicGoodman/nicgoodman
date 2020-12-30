@@ -2,7 +2,7 @@
 title: About
 author: b8cab3f6-baa5-4311-822b-8ad388e79916
 updated_by: b8cab3f6-baa5-4311-822b-8ad388e79916
-updated_at: 1609304132
+updated_at: 1609306043
 template: templates/about
 layout: layouts/basic-layout
 header: 'hi i''m nic goodman'
@@ -12,15 +12,31 @@ bio:
     content:
       -
         type: text
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. '
-  -
-    type: paragraph
+        text: 'I''m a professionally trained graphic designer, UX/UI designer and web developer. I have a keen eye for clean and modern design. With an extensive work experience dealing with varied audiences, I am able to communicate effectively and attack new problems with vigor and excitement.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+        text: 'Owning and running your business requires a lot of on the job problem solving and self-motivation when it comes to learning new skills and professional development. During the past eight years at ninebar, I have grown a basic coding skillset out of college into a robust portfolio of different web development technologies, principles and techniques. I am always looking for the next language or framework to start learning and to see how I can apply it in a way that makes my clients happy.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'ninebar was started by two of my friends and me who enjoyed doing freelance work in our free time. From 2012 onward, our business grew in size, our portfolio of services expanded, and we operated out of a great office in the heart of downtown Asheville. My experience in the traditional print design field and running production machines in the print industry helped inform my design sensibilities early on as Creative Director. As our services grew, I spearheaded efforts to expand our web development offerings and my experience as a graphic designer gave me a unique perspective when it came to web design and development.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'I pride myself in being one of the rare designers that is capable of and thoroughly enjoys coding as well as a coder that still gets super excited over a new identity package for companies big and small.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'ninebar was named after needing nine bars of atmospheric pressure to pull a shot of espresso, and you can still find me with a mug glued to my hand.'
 tools:
   -
     logo: about_images/tool-icons-mono-01.svg
@@ -221,30 +237,12 @@ education:
           -
             type: text
             text: 'Bachelor of Arts in Multimedia Arts and Sciences, Concentration in Interactive Design. The UNC Asheville Multimedia Arts and Sciences program was the overlap of traditional graphic design, computer engineering and interactive design.'
-    type: new_set
-    enabled: true
-  -
-    achievement: Presenter
-    institution: 'Big South Undergraduate Research Symposium'
-    duration: '2011'
-    location: null
-    description: null
-    type: new_set
-    enabled: true
-  -
-    achievement: Presenter
-    institution: 'State of North Carolina Undergraduate Research & Creativity Symposium'
-    duration: '2010'
-    location: null
-    description: null
-    type: new_set
-    enabled: true
-  -
-    achievement: 'Research Grant Recipient'
-    institution: 'North Carolina Undergraduate Research Grant Award'
-    duration: '2010'
-    location: 'Asheville, NC'
-    description: null
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Graduated having been a recipient of a North Carolina Undergraduate Research Grant Award and went on to present at the State of North Carolina Undergraduate Research & Creativity Symposium in 2010 followed by the Big South Undergraduate Research Symposium in 2011'
     type: new_set
     enabled: true
   -
@@ -252,7 +250,13 @@ education:
     institution: 'Boy Scouts of America, Troop 348'
     duration: '2006'
     location: 'Statesville, NC'
-    description: null
+    description:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Worked towards and earned my Eagle Scout rank, the highest in the Boy Scouts of America in 2006. This was a formative experience that taught me responsibility and an deep appreciation for our environment.'
     type: new_set
     enabled: true
 id: 6afe05a4-a579-42a7-9fa2-c296d60e1b18
