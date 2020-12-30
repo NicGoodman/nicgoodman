@@ -2,7 +2,7 @@
 title: About
 author: b8cab3f6-baa5-4311-822b-8ad388e79916
 updated_by: b8cab3f6-baa5-4311-822b-8ad388e79916
-updated_at: 1609306043
+updated_at: 1609307353
 template: templates/about
 layout: layouts/basic-layout
 header: 'hi i''m nic goodman'
@@ -256,7 +256,7 @@ education:
         content:
           -
             type: text
-            text: 'Worked towards and earned my Eagle Scout rank, the highest in the Boy Scouts of America in 2006. This was a formative experience that taught me responsibility and an deep appreciation for our environment.'
+            text: 'Worked towards and earned my Eagle Scout rank, the highest in the Boy Scouts of America in 2006. This was a formative experience that taught me responsibility and an deep appreciation for nature and our environment.'
     type: new_set
     enabled: true
 id: 6afe05a4-a579-42a7-9fa2-c296d60e1b18
