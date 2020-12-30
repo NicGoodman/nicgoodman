@@ -64,7 +64,7 @@
         </section>
             <h3 id="" class="mt-8 text-pink-600 bg-green-100 font-script font-extrabold pr-10 pl-2 py-1 self-start mb-4 text-base md:text-xl lg:text-2xl">experience</h3>
             {{ resume }}
-            <section id="job-entry" class="w-full flex flex-col">
+            <section id="job-entry" class="w-full flex flex-col mb-4">
                 <h3 id="" class="font-sans font-bold text-green-100 pb-2 border-b-2 border-yellow-400 mb-2 text-lg md:text-xl lg:text-2xl"><span id="" class="text-green-300">{{ title }}</span> / {{ company }} / {{ duration }} / {{ location }}</h3>
                 <article id="" class="bard text-yellow-400 font-sans font-bold list-disc">
                     {{ description }}
@@ -72,6 +72,14 @@
             </section>
             {{ /resume }}
             <h3 id="" class="mt-8 text-pink-600 bg-green-100 font-script font-extrabold pr-10 pl-2 py-1 self-start mb-4 text-base md:text-xl lg:text-2xl">education & achievements</h3>
+            {{ education }}
+            <section id="education-entry" class="w-full flex flex-col mb-4">
+                <h3 id="" class="font-sans font-bold text-green-100 pb-2 border-b-2 border-yellow-400 mb-2 text-lg md:text-xl lg:text-2xl"><span id="" class="text-green-300">{{ achievement }}</span> / {{ institution }} / {{ duration }} / {{ location }}</h3>
+                <article id="" class="bard text-yellow-400 font-sans font-bold list-disc">
+                    {{ description }}
+                </article>
+                {{ /education }}
+            </section>
 
             <section id="tools-mobile" class="flex flex-col w-full md:hidden">
                 <h3 class="text-pink-600 bg-green-100 font-script font-extrabold pr-10 pl-2 py-1 self-start mb-4 text-base md:text-xl lg:text-2xl">tools</h3>

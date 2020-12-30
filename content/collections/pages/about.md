@@ -2,7 +2,7 @@
 title: About
 author: b8cab3f6-baa5-4311-822b-8ad388e79916
 updated_by: b8cab3f6-baa5-4311-822b-8ad388e79916
-updated_at: 1609303907
+updated_at: 1609304132
 template: templates/about
 layout: layouts/basic-layout
 header: 'hi i''m nic goodman'
