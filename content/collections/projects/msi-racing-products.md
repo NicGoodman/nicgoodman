@@ -23,6 +23,13 @@ services:
   - print-design
   - ux-ui-web-design
 updated_by: b8cab3f6-baa5-4311-822b-8ad388e79916
-updated_at: 1609220343
+updated_at: 1609302664
+thumbnail: projects/msi/ninebar_Graphic_Design_Business_Cards_MSI_Asheville.jpg
+gallery_images:
+  - projects/msi/msi-desktop.gif
+  - projects/msi/msi-racing-products-logo-graphic-design-mooresville-02-01-01.jpg
+  - projects/msi/msi-racing-products-box-graphic-design-mooresville.jpg
+  - projects/msi/ninebar_Graphic_Design_Business_Cards_MSI_Asheville.jpg
+  - projects/msi/ninebar_Graphic_Design_Line_Card_Ashevile.jpg
 id: 87411ac6-7627-4666-b99c-51121df1ee78
 ---

@@ -3,9 +3,13 @@ title: 'Forestry Camp'
 gallery_images:
   - projects/forestry_camp/ninebar_Menu_Design_Forestry_Camp_Asheville.jpg
   - projects/forestry_camp/ninebar_Menu_Design_Forestry_Camp_Dinner_Asheville.jpg
+  - projects/forestry_camp/fc-web-images-03.jpg
   - projects/forestry_camp/ninebar_Graphic_Design_Sign_Forestry_Camp_Asheville.jpg
+  - projects/forestry_camp/fc-web-images-05.jpg
   - projects/forestry_camp/ninebar_Graphic_Design_Post_Card_Forestry_Camp_Asheville.jpg
+  - projects/forestry_camp/fc-web-images-02.jpg
   - projects/forestry_camp/ninebar_Graphic_Design_Forestry_Camp_Asheville.jpg
+  - projects/forestry_camp/fc-web-images-04.jpg
 project_description:
   -
     type: paragraph
@@ -21,7 +25,7 @@ services:
   - print-design
   - ux-ui-web-design
 updated_by: b8cab3f6-baa5-4311-822b-8ad388e79916
-updated_at: 1609219541
+updated_at: 1609297716
 thumbnail: projects/forestry_camp/ninebar_Menu_Design_Forestry_Camp_Asheville.jpg
 id: e3210a9b-c907-4080-9650-0755ae7afa76
 ---

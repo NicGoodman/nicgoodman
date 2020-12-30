@@ -13,6 +13,14 @@ services:
   - print-design
   - layout-design
 updated_by: b8cab3f6-baa5-4311-822b-8ad388e79916
-updated_at: 1609220438
+updated_at: 1609300658
+thumbnail: projects/burial/ninebar_Packaging_design_Cans_Burial_Brewing_Asheville_Glory_Is.jpg
+gallery_images:
+  - projects/burial/Burial_Brain_Can.gif
+  - projects/burial/ninebar_Packaging_Design_Asheville.jpg
+  - projects/burial/ninebar_Packaging_design_Bottles_Burial_Brewing_Asheville.jpg
+  - projects/burial/ninebar_Packaging_Design_Can_Burial_Brewing_Asheville_Rift.jpg
+  - projects/burial/ninebar_Packaging_Design_Can_Burial_Brewing_Asheville_Two_Things.jpg
+  - projects/burial/ninebar_Packaging_design_Cans_Burial_Brewing_Asheville_Glory_Is.jpg
 id: f717abe3-cdda-44f8-a80b-51c3c0457e39
 ---
