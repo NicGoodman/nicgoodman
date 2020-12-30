@@ -2,7 +2,7 @@
 title: About
 author: b8cab3f6-baa5-4311-822b-8ad388e79916
 updated_by: b8cab3f6-baa5-4311-822b-8ad388e79916
-updated_at: 1609307353
+updated_at: 1609360234
 template: templates/about
 layout: layouts/basic-layout
 header: 'hi i''m nic goodman'
@@ -12,31 +12,27 @@ bio:
     content:
       -
         type: text
-        text: 'I''m a professionally trained graphic designer, UX/UI designer and web developer. I have a keen eye for clean and modern design. With an extensive work experience dealing with varied audiences, I am able to communicate effectively and attack new problems with vigor and excitement.'
+        text: 'I am a professionally trained graphic designer, UX/UI designer, and web developer. I have a keen eye for fun and modern design. I enjoy the problem solving aspect of coding, and tackle complications with vigor and excitement. With extensive work experience dealing with various types of clients, I have become adept at communicating effectively.  '
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Owning and running your business requires a lot of on the job problem solving and self-motivation when it comes to learning new skills and professional development. During the past eight years at ninebar, I have grown a basic coding skillset out of college into a robust portfolio of different web development technologies, principles and techniques. I am always looking for the next language or framework to start learning and to see how I can apply it in a way that makes my clients happy.'
+        text: 'I own and run my own business, ninebar; this experience has required a lot of on the job problem solving and self-motivation when it comes to learning new skills and professional development. During the past eight years at ninebar, I have grown a basic coding skillset into a robust portfolio of different web development technologies, principles, and techniques. I am always looking for the next language or framework to start learning and to see how I can apply it in a way that satisfies my clients.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'ninebar was started by two of my friends and me who enjoyed doing freelance work in our free time. From 2012 onward, our business grew in size, our portfolio of services expanded, and we operated out of a great office in the heart of downtown Asheville. My experience in the traditional print design field and running production machines in the print industry helped inform my design sensibilities early on as Creative Director. As our services grew, I spearheaded efforts to expand our web development offerings and my experience as a graphic designer gave me a unique perspective when it came to web design and development.'
+        text: 'I started ninebar with a couple of design friends to do freelance in our free time.  Since 2012 our business has grown in size, our portfolio of services has expanded, and we have operated out of a great office in the heart of downtown Asheville. My experience in the traditional print design field and running production machines in the print industry early on has informed my design sensibilities as Creative Director.  I have spearheaded efforts to expand our web development offerings over the years, and my experience as a graphic designer has given me a unique perspective when it comes to web design and development.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'I pride myself in being one of the rare designers that is capable of and thoroughly enjoys coding as well as a coder that still gets super excited over a new identity package for companies big and small.'
+        text: 'I pride myself in being one of the rare designers that is capable of and thoroughly enjoys coding, as well as being a coder that still gets really excited over a new branding and identity packages for companies big and small.'
   -
     type: paragraph
-    content:
-      -
-        type: text
-        text: 'ninebar was named after needing nine bars of atmospheric pressure to pull a shot of espresso, and you can still find me with a mug glued to my hand.'
 tools:
   -
     logo: about_images/tool-icons-mono-01.svg
@@ -126,7 +122,7 @@ resume:
                 content:
                   -
                     type: text
-                    text: 'Grew company''s services portfolio to include large, custom coded CMS driven web experiences.'
+                    text: 'Responsible for growing company''s services portfolio to include large, custom coded CMS driven web experiences.'
           -
             type: list_item
             content:
@@ -166,7 +162,7 @@ resume:
                 content:
                   -
                     type: text
-                    text: 'Formed company both legally and aesthetically. Process included everything from complete corporate identity package, website design & deployment as well as researching and filing articles of incorporation.'
+                    text: 'Responsible for forming the company both legally and aesthetically. This has included creating a complete corporate identity package, website design and deployment as well as researching and filing articles of incorporation.'
           -
             type: list_item
             content:
@@ -175,7 +171,7 @@ resume:
                 content:
                   -
                     type: text
-                    text: 'Provides clientele with graphic & web design services. Final products includes identity packages, marketing materials, and packaging design.'
+                    text: 'Provides clientele with graphic and web design services. Final products include identity packages, marketing materials, and packaging design.'
       -
         type: paragraph
     type: job_entry
@@ -197,7 +193,7 @@ resume:
                 content:
                   -
                     type: text
-                    text: 'Worked one on one with customers and their content. Assisted and worked with customers through the design process, from conception & proofing to production & delivery.'
+                    text: 'Worked one on one with customers and their content. Assisted and worked with customers through the design process, from conception and proofing, to production and delivery.'
           -
             type: list_item
             content:
@@ -206,7 +202,7 @@ resume:
                 content:
                   -
                     type: text
-                    text: 'Operated a wide variety of print production equipment including but not limited to large & small format printers, lamination machines, and computer controlled vinyl cutters.'
+                    text: 'Operated a wide variety of print production equipment including but not limited to large and small format printers, lamination machines, and computer controlled vinyl cutters.'
           -
             type: list_item
             content:
@@ -215,7 +211,7 @@ resume:
                 content:
                   -
                     type: text
-                    text: 'Provided on site installation services for customer projects including vinyl lettering & graphics, signage, and banners.'
+                    text: 'Provided on site installation services for customer projects including vinyl lettering and graphics, signage, and banners.'
       -
         type: paragraph
     type: job_entry
@@ -236,13 +232,27 @@ education:
         content:
           -
             type: text
-            text: 'Bachelor of Arts in Multimedia Arts and Sciences, Concentration in Interactive Design. The UNC Asheville Multimedia Arts and Sciences program was the overlap of traditional graphic design, computer engineering and interactive design.'
+            text: 'Bachelor of Arts in Multimedia Arts and Sciences, Concentration in Interactive Design. The UNC Asheville Multimedia Arts and Sciences program overlapped traditional graphic design, computer engineering, and interactive design.'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Graduated having been a recipient of a North Carolina Undergraduate Research Grant Award and went on to present at the State of North Carolina Undergraduate Research & Creativity Symposium in 2010 followed by the Big South Undergraduate Research Symposium in 2011'
+            text: 'Graduated as a recipient of a North Carolina Undergraduate Research Grant Award and went on to present at the State of North Carolina Undergraduate Research & Creativity Symposium in 2010 followed by the Big South Undergraduate Research Symposium in 2011.'
+    type: new_set
+    enabled: true
+  -
+    achievement: 'Founding Board Member'
+    institution: 'AIGA Asheville, Chapter 75'
+    duration: '2019 - 2020'
+    location: 'Asheville, NC'
+    description:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'I was approached to help jumpstart AIGA''s 75th Chapter in Asheville, NC as the chair of the Web Committee. As a board member, I helped organize events featuring esteemed designers such as Ashleigh Axios.'
     type: new_set
     enabled: true
   -
@@ -256,7 +266,7 @@ education:
         content:
           -
             type: text
-            text: 'Worked towards and earned my Eagle Scout rank, the highest in the Boy Scouts of America in 2006. This was a formative experience that taught me responsibility and an deep appreciation for nature and our environment.'
+            text: 'I earned my Eagle Scout rank, the highest in the Boy Scouts of America in 2006. This was a formative experience that taught me responsibility and an deep appreciation for community,  nature, and our environment.'
     type: new_set
     enabled: true
 id: 6afe05a4-a579-42a7-9fa2-c296d60e1b18
