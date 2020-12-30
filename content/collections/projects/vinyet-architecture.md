@@ -6,9 +6,9 @@ project_description:
     content:
       -
         type: text
-        text: 'Vinyet Architecture is one of my first professional projects. I was approached to develop a full identity package, including merchandise, for the firm in the spring of 2013. I lead the design process with my team at ninebar and developed a lasting, memorable identity that they continue to use to this day.'
+        text: 'Vinyet Architecture is one of my first professional projects. In the spring of 2013, I was approached to develop a full identity package, including merchandise. I lead the design process with my team at ninebar and developed a lasting, memorable identity that they continue to use to this day.'
 updated_by: b8cab3f6-baa5-4311-822b-8ad388e79916
-updated_at: 1609300134
+updated_at: 1609361473
 project_type:
   - design
 services:

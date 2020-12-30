@@ -6,7 +6,7 @@ project_description:
     content:
       -
         type: text
-        text: 'MSI Racing Products is owned by my family and is ultimately the catalyst for my career in both graphic design and web development. In the early 2000s, my father asked me to put together a rudimentary logo for the family business and asked me to sit with a web developer he had hired to build the company''s first website. His goal was to have me learn how to manage that new site. That original website is long gone yet I still manage their latest iteration.'
+        text: 'MSI Racing Products is owned by my family and is ultimately the catalyst for my career in both graphic design and web development. In the early 2000s, my father asked me to put together a rudimentary logo for the family business and asked me to sit with a web developer he had hired to build the company''s first website. His goal was to have me learn how to manage that new site. That original website is long gone, but I still manage their latest iteration.'
   -
     type: paragraph
     content:
@@ -23,7 +23,7 @@ services:
   - print-design
   - ux-ui-web-design
 updated_by: b8cab3f6-baa5-4311-822b-8ad388e79916
-updated_at: 1609302664
+updated_at: 1609362116
 thumbnail: projects/msi/ninebar_Graphic_Design_Business_Cards_MSI_Asheville.jpg
 gallery_images:
   - projects/msi/msi-desktop.gif

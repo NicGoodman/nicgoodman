@@ -6,7 +6,7 @@ project_description:
     content:
       -
         type: text
-        text: 'During the summer of 2013, I was approached by Wizards Powersports and at ninebar, lead the development of an identity package for the company based on a low-resolution bitmapped icon of a wizard provided by the client. After wrapping up that initial project, I maintained a working relationship with Wizards, and continued to refine their identity and produced assets at various times.'
+        text: 'During the summer of 2013, I was approached by Wizards Powersports to lead the development of an identity package for the company based on a low-resolution bitmapped icon of a wizard provided by the client. After wrapping up that initial project, I maintained a working relationship with Wizards Powersports, and continued to refine their identity and have produced assets for the company over the past seven years.'
   -
     type: paragraph
     content:
@@ -21,7 +21,7 @@ services:
   - ux-ui-web-design
   - frontend-web-development
 updated_by: b8cab3f6-baa5-4311-822b-8ad388e79916
-updated_at: 1609220255
+updated_at: 1609361193
 thumbnail: projects/wizards/wizards-mocks-01.jpg
 gallery_images:
   - projects/wizards/wizards_stylePreview.jpg

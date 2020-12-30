@@ -6,7 +6,7 @@ project_description:
     content:
       -
         type: text
-        text: 'ninebar has worked with Green America to design campaign brands, print materials, infographics, and reports since 2017. The campaigns I designed brands for have reduced receipt paper usage, gotten telecommunication companies to commit to greenhouse gas emission goals, and forced universities to look at their paper usage.'
+        text: 'ninebar has worked with Green America to design campaign brands, print materials, infographics, and reports since 2017. The campaigns I have designed brands for have been used by Green America to try to reduce receipt paper usage, get telecommunication companies to commit to greenhouse gas emission goals, and encourage universities to look at their paper usage.'
 project_type:
   - design
 services:
@@ -14,7 +14,7 @@ services:
   - logo-design
   - print-design
 updated_by: b8cab3f6-baa5-4311-822b-8ad388e79916
-updated_at: 1609301420
+updated_at: 1609362635
 thumbnail: projects/green_america/ninebar_Non_Profit_Mailer_Green_America_Asheville.jpg
 gallery_images:
   - projects/green_america/P2120120-copy.gif

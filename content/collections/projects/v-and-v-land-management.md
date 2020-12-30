@@ -6,9 +6,9 @@ project_description:
     content:
       -
         type: text
-        text: 'Frank Vogler with V&V Land Management was one of my clients when I worked in the print industry. When I started ninebar, Frank reached out for my design services, having me develop print materials such as brochures, business cards, portfolios, and vehicle graphics. In the Fall of 2018, he asked for me to redesign his WordPress site and develop that new site on a platform. I used Craft CMS, Tailwind CSS, and JQuery to build that new, streamlined, and easier to consume website.'
+        text: 'Frank Vogler with V&V Land Management was one of my clients when I worked in the print industry. When I started ninebar, Frank reached out for my design services, where I developed print materials such as brochures, business cards, portfolios, and vehicle graphics. In the Fall of 2018, he asked for a website redesign. I used his older WordPress site to develop a new site on a new platform. I used Craft CMS, Tailwind CSS, and JQuery to build a new, streamlined, and easier to consume website.'
 updated_by: b8cab3f6-baa5-4311-822b-8ad388e79916
-updated_at: 1609299342
+updated_at: 1609361697
 project_type:
   - all
 services:

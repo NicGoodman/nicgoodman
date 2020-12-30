@@ -13,7 +13,7 @@ services:
   - print-design
   - layout-design
 updated_by: b8cab3f6-baa5-4311-822b-8ad388e79916
-updated_at: 1609300658
+updated_at: 1609362773
 thumbnail: projects/burial/ninebar_Packaging_design_Cans_Burial_Brewing_Asheville_Glory_Is.jpg
 gallery_images:
   - projects/burial/Burial_Brain_Can.gif

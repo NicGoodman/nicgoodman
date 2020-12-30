@@ -15,7 +15,7 @@ services:
   - layout-design
   - print-design
 updated_by: b8cab3f6-baa5-4311-822b-8ad388e79916
-updated_at: 1609302576
+updated_at: 1609362818
 thumbnail: projects/boss_lady/bosslady2-(4).jpeg
 gallery_images:
   - projects/boss_lady/boss-lady-bitters-label-design-asheville-img08.jpg
