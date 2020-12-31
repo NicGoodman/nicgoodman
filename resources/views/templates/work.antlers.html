@@ -89,9 +89,9 @@
             :class="filterProjects('{{ project_type }}{{ slug }}{{ /project_type }}')"
         >
             <img
-                src="{{ thumbnail.url }}"
+                data-src="{{ thumbnail.url }}"
                 alt=""
-                class="w-48 h-48 lg:w-56 lg:h-56 object-cover opacity-0 hover:opacity-100 transition-all z-40"
+                class="w-48 h-48 lg:w-56 lg:h-56 object-cover opacity-0 hover:opacity-100 transition-all z-40 lazyload"
             />
             <p
                 id=""

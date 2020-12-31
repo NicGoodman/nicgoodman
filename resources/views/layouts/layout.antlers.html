@@ -7,13 +7,6 @@
         <link rel="alternate icon" href="{{link to='/assets/favicon.ico'}}">
         <link href='{{ link to="/css/tailwind.css" }}' rel="stylesheet" />
         <link rel="stylesheet" href="https://use.typekit.net/rds2exl.css" />
-        {{ collection:projects }}
-    
-        {{ gallery_images }}
-        <link rel="preload" as="image" href="{{ url }}"/>
-        {{ /gallery_images}}
-    
-        {{ /collection:projects }}
         <script src="https://kit.fontawesome.com/e3e517da60.js" crossorigin="anonymous"></script>
         <script src="https://unpkg.com/vue@next"></script>
         <script src="https://unpkg.com/vue-router@next"></script>
@@ -22,6 +15,7 @@
         <script src="{{ link to="/js/contact.vue.js"}}"></script>
         <script src='{{ link to="/js/app.js"}}' defer></script>
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="{{ link to="/js/lazysizes.min.js"}}" async=""></script>
         <style>
             {{ collection:projects }}
                 .image-gradient-{{ slug }} {
@@ -30,6 +24,11 @@
                 }
              {{ /collection:projects}}
         </style>
+        {{ collection:projects }}
+        {{ gallery_images }}
+        <link rel="preload" as="image" href="{{ url }}"/>
+        {{ /gallery_images}}
+        {{ /collection:projects }}
     </head>
     <script type="text/x-template" id="work-content">
         {{ partial:templates/work }}
