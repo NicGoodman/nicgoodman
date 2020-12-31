@@ -24,7 +24,6 @@
                 }
              {{ /collection:projects}}
         </style>
-       
     </head>
     <script type="text/x-template" id="work-content">
         {{ partial:templates/work }}
@@ -42,5 +41,10 @@
         {{ partial:partials/header }}
         <router-view></router-view>
         {{ partial:partials/footer }}
+        {{ collection:projects }}
+        {{ gallery_images }}
+        <link rel="preload" as="image" href="{{ url }}"/>
+        {{ /gallery_images}}
+        {{ /collection:projects }}
     </body>
 </html>
