@@ -40,5 +40,15 @@
         {{ partial:partials/header }}
         <router-view></router-view>
         {{ partial:partials/footer }}
+
+        <section id="preloaded-images" class="">
+            {{ collection:projects }}
+    
+            {{ gallery_images }}
+            <div style="background: url{{ url }} no-repeat -9999px -9999px;" /></div>
+            {{ /gallery_images}}
+        
+            {{ /collection:projects }}
+        </section>
     </body>
 </html>

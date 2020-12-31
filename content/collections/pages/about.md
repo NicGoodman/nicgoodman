@@ -2,7 +2,7 @@
 title: About
 author: b8cab3f6-baa5-4311-822b-8ad388e79916
 updated_by: b8cab3f6-baa5-4311-822b-8ad388e79916
-updated_at: 1609366151
+updated_at: 1609445720
 template: templates/about
 layout: layouts/basic-layout
 header: 'hi i''m nic goodman'
@@ -12,25 +12,25 @@ bio:
     content:
       -
         type: text
-        text: 'I am a professionally trained graphic designer, UX/UI designer, and web developer. I have a keen eye for fun and modern design. I enjoy the problem solving aspect of coding, and tackle complications with vigor and excitement. With extensive work experience dealing with various types of clients, I have become adept at communicating effectively.  '
+        text: 'I am a professionally trained graphic designer, UX/UI designer, and web developer. I have a keen eye for fun and modern design. I enjoy the problem-solving aspect of coding, and tackle complications with vigor and excitement. I have become adept at communicating effectively through extensive work experience dealing with various types of clients.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'I own and run my own business, ninebar; this experience has required a lot of on the job problem solving and self-motivation when it comes to learning new skills and professional development. During the past eight years at ninebar, I have grown a basic coding skillset into a robust portfolio of different web development technologies, principles, and techniques. I am always looking for the next language or framework to start learning and to see how I can apply it in a way that satisfies my clients.'
+        text: 'I own and run my own business, ninebar, which requires on-the-job-problem solving and self-motivation when it comes to learning new skills and professional development. During the past eight years at ninebar, grew a basic coding skillset into a robust portfolio of different web development technologies, principles, and techniques. I am always looking for the next language or framework that I can use to satisfy clients.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'I started ninebar with a couple of design friends to do freelance in our free time.  Since 2012 our business has grown in size, our portfolio of services has expanded, and we have operated out of a great office in the heart of downtown Asheville. My experience in the traditional print design field and running production machines in the print industry early on has informed my design sensibilities as Creative Director.  I have spearheaded efforts to expand our web development offerings over the years, and my experience as a graphic designer has given me a unique perspective when it comes to web design and development.'
+        text: 'I started ninebar in 2012 alongside two friends as a way to part-time freelance. Since then, ninebar grew in size, our portfolio of services has expanded and made the jump to operating full-time from an office in downtown Asheville. My experience in the traditional print design field and running production machines in the print industry informs my design sensibilities as Creative Director. I spearheaded efforts to expand our web development offerings and my experience as a graphic designer has given me a unique perspective when it comes to web design and development.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'I pride myself in being one of the rare designers that is capable of and thoroughly enjoys coding, as well as being a coder that still gets really excited over a new branding and identity packages for companies big and small.'
+        text: 'I pride myself in being one of those rare designers that is capable of and thoroughly enjoys coding, as well as being a coder who still gets really excited over a new branding and identity packages for companies big and small.'
   -
     type: paragraph
 tools:
@@ -269,5 +269,13 @@ education:
     enabled: true
 avatar: about_images/nicAvatar2020-Square-02.svg
 bio_picture: about_images/nic-bio-pic-final.jpg
+seotamic_title: title
+seotamic_title_prepend: true
+seotamic_title_append: true
+seotamic_meta_description: empty
+seotamic_open_graph_title: title
+seotamic_open_graph_description: general
+seotamic_twitter_title: title
+seotamic_twitter_description: general
 id: 6afe05a4-a579-42a7-9fa2-c296d60e1b18
 ---
