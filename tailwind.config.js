@@ -1,9 +1,11 @@
 module.exports = {
-    future: {
-        // removeDeprecatedGapUtilities: true,
-        // purgeLayersByDefault: true,
-    },
-    purge: [],
+  purge: {
+    enabled: true,
+    content: [
+    './resources/views/**/*.antlers.html',
+    './public/js/**/*.js',
+    ],
+},
     theme: {
         extend: {
             height: {
