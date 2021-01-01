@@ -1,12 +1,7 @@
 {
     "name": "statamic/statamic",
     "description": "Statamic",
-    "keywords": [
-        "statamic",
-        "cms",
-        "flat file",
-        "laravel"
-    ],
+    "keywords": ["statamic", "cms", "flat file", "laravel"],
     "type": "project",
     "require": {
         "php": "^7.3",
@@ -16,7 +11,6 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.0",
         "laravel/tinker": "^2.0",
-        "spatie/statamic-responsive-images": "^1.7",
         "statamic/cms": "3.0.32",
         "statamic/ssg": "^0.2.0"
     },

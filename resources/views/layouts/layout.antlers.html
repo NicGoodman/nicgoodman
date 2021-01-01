@@ -14,13 +14,8 @@
         <script src="{{ link to="/js/about.vue.js"}}"></script>
         <script src="{{ link to="/js/contact.vue.js"}}"></script>
         <script src='{{ link to="/js/app.js"}}' defer></script>
-        {{ collection:projects }}
-            {{ gallery_images }}
-                {{ if url | contains:gif }}
-                    <link rel="preload" as="image" href="{{ url }}"/>
-                {{ /if }}
-            {{ /gallery_images}}
-        {{ /collection:projects }}
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="{{ link to="/js/lazysizes.min.js"}}" async=""></script>
         <style>
             {{ collection:projects }}
                 .image-gradient-{{ slug }} {
@@ -46,5 +41,10 @@
         {{ partial:partials/header }}
         <router-view></router-view>
         {{ partial:partials/footer }}
+        {{ collection:projects }}
+        {{ gallery_images }}
+        <link rel="preload" as="image" href="{{ url }}"/>
+        {{ /gallery_images}}
+        {{ /collection:projects }}
     </body>
 </html>

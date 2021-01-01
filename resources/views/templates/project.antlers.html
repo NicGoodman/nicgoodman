@@ -17,12 +17,7 @@
     {{ project_description}}
 </section>
 <section id="project-gallery" class="image-gallery mt-8">
-   
     {{ gallery_images }}
-    {{ if url | contains:gif }}
-    <img src="{{ url }}" class="w-full h-auto pb-4" alt="">
-    {{ else }}
-    {{ responsive:url alt="{title}" class="w-full h-auto pb-4" }}
-    {{ /if }}
+    <img data-src="{{ url }}" class="w-full h-auto pb-4 lazyload" alt="" />
     {{ /gallery_images}}
 </section>
