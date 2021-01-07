@@ -8,8 +8,8 @@ I started ninebar in 2012 alongside two friends as a way to part-time freelance.
 
 I pride myself in being one of those rare designers that is capable of and thoroughly enjoys coding, as well as being a coder who still gets really excited over a new branding and identity packages for companies big and small. 
 
-### What I'm learning
-I am currently working on improving my Vue.js 3 and TypeScript skillsets and actively trying to work those technologies into new projects.
+### What I'm currently interested in
+I am currently working on improving my Vue.js 3 and TypeScript skillsets and actively trying to work those technologies into new projects. I am really excited about the [HTMX 1.1.0](https://htmx.org) release and I can't wait to try out [Hotwire](https://hotwire.dev) by the team over at Basecamp.
 
 ### Learn more about me
 **[nicgoodman.com](https://nicgoodman.com)**
