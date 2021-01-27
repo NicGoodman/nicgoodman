@@ -18,7 +18,7 @@
         </h2>
     {{ page_content }} {{if type=="text_section"}}
     {{ if heading | length }}
-    <h3 id="" class="font-sans font-bold text-green-100 pb-2 border-b-2 border-yellow-400 mb-2 text-lg md:text-xl lg:text-2xl">{{ heading }}</h3>
+    <h3 id="" class="font-sans font-bold text-green-100 pb-2 border-t-2 border-yellow-400 mb-2 text-lg md:text-xl lg:text-2xl">{{ heading }}</h3>
     {{ /if}}
     <article id="" class="bard text-yellow-400 font-sans font-bold list-disc">{{ text_content }}</article>
     {{elseif type=="featured_project"}}
@@ -26,11 +26,14 @@
     <h3 id="" class="mt-8 text-pink-600 bg-green-100 font-script font-extrabold pr-10 pl-2 py-1 self-start mb-4 text-base md:text-xl lg:text-2xl">{{ project_name }}</h3>
     {{ /if}}
     <article id="" class="bard text-yellow-400 font-sans font-bold list-disc">{{ project_text_content }}</article>
-    <section id="featured-project-gallery" class="image-gallery mt-8">
+    {{ if images | length }}
+    <section id="featured-project-gallery" class="image-gallery-application mt-8">
         {{ images }}
-    <img src="{{url}}" class="w-full h-auto pb-4 lazyload" alt="" />
-    {{ /images }}
-</section>
+            <img src="{{url}}" class="w-full h-auto pb-4 lazyload" alt="" />
+        {{ /images }}
+    </section>
+    {{/if}}
+    <section id="embed" class="">{{ embed }}</section>
 
  {{/if}} 
  {{/page_content }}

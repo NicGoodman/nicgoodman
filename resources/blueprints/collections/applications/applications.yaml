@@ -79,6 +79,8 @@ sections:
                       - italic
                       - unorderedlist
                       - anchor
+                      - code
+                      - codeblock
                     save_html: false
                     toolbar_mode: fixed
                     link_noopener: false
@@ -100,6 +102,20 @@ sections:
                     display: Images
                     type: assets
                     icon: assets
+                    listable: hidden
+                -
+                  handle: embed
+                  field:
+                    theme: material
+                    mode: htmlmixed
+                    indent_type: tabs
+                    indent_size: 4
+                    key_map: default
+                    line_numbers: true
+                    line_wrapping: true
+                    display: Embed
+                    type: code
+                    icon: code
                     listable: hidden
           display: 'Page Content'
           type: replicator

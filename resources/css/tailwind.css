@@ -112,10 +112,18 @@ p {
     column-count: 1;
     column-gap: 1rem; 
 }
+.image-gallery-application {
+    column-count: 1;
+    column-gap: 1rem; 
+}
 
 @media (min-width: 640px) {
     .image-gallery {
         column-count: 2;
+        column-gap: 1rem; 
+    }
+    .image-gallery-application {
+        column-count: 3;
         column-gap: 1rem; 
     }
 }
