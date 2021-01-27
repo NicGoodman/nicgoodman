@@ -24,10 +24,14 @@
                     background-blend-mode: darken;
                 }
              {{ /collection:projects}}
-        </style>
-        {{ collection:projects }}
-        <link rel="preload" as="fetch" href="{{ url }}"/>
+             .preload-images {
+                         {{ collection:projects }}
+                             {{ gallery_images }}
+	background: url({{ url }}) no-repeat -9999px -9999px;
+        {{ /gallery_images }}
         {{ /collection:projects }}
+	}
+        </style>
     </head>
     <script type="text/x-template" id="work-content">
         {{ partial:templates/work }}
