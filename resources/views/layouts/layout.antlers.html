@@ -32,6 +32,9 @@
         {{ /collection:projects }}
 	}
         </style>
+        {{ collection:projects }}
+        <link rel="preload" as="fetch" href="{{ url }}"/>
+        {{ /collection:projects }}
     </head>
     <script type="text/x-template" id="work-content">
         {{ partial:templates/work }}
