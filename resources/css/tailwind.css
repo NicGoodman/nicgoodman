@@ -129,6 +129,11 @@ p {
     @apply pl-10;
 }
 
+.bard a {
+    @apply text-green-100;
+    @apply hover:text-pink-600;
+}
+
 .bgScrollOff {
     /* when modal active */
     touch-action: none !important;

@@ -1678,6 +1678,16 @@ p {
   padding-left: 2.5rem;
 }
 
+.bard a {
+  --tw-text-opacity: 1;
+  color: rgba(209, 250, 229, var(--tw-text-opacity));
+}
+
+.bard a:hover {
+  --tw-text-opacity: 1;
+  color: rgba(219, 39, 119, var(--tw-text-opacity));
+}
+
 .bgScrollOff {
   /* when modal active */
   touch-action: none !important;

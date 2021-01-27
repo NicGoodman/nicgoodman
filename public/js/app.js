@@ -1,7 +1,8 @@
 const routes = [
     { path: "/", component: Home },
     { path: "/about", component: About },
-    { path: "/contact", component: Contact }
+    { path: "/contact", component: Contact },
+    { path: "/applications/:slug", component: Application }
 ];
 
 const router = VueRouter.createRouter({
@@ -12,7 +13,7 @@ const router = VueRouter.createRouter({
 const app = Vue.createApp({
     data() {
         return {
-            
+            slug: ""
         };
     },
     watch: {
