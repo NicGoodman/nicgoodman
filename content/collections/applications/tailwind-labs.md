@@ -10,7 +10,7 @@ seotamic_open_graph_description: general
 seotamic_twitter_title: title
 seotamic_twitter_description: general
 updated_by: b8cab3f6-baa5-4311-822b-8ad388e79916
-updated_at: 1611790904
+updated_at: 1611793051
 hero_image: home_images/designer-background.png
 page_content:
   -
@@ -149,7 +149,7 @@ page_content:
             text: 'Okay, this last one was for fun and for my most important client, my wife, Sonya. When COVID hit, she was forced to make up lost revenue from her teaching job by teaching young Chinese children English. She wanted a "Disney Fairy-tale" themed trailer for her profile, so one weekend, I got the drone, my camera, and my cast of characters and, with the help of Final Cut Pro, threw this gem together. It is absolutely ridiculous, over the top, and we had a lot of fun making it.'
     type: featured_project
     enabled: true
-    embed: '<iframe src="https://player.vimeo.com/video/505428529" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>'
+    embed: '<iframe src="https://player.vimeo.com/video/505428529" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>'
   -
     heading: 'You all make fantastic products and I want to help. I hope to speak with you soon!'
     type: text_section
